@@ -1,0 +1,57 @@
+# compile vhdl design source files
+vhdl neorv32  \
+"../../../../../../src/neorv32/rtl/core/neorv32_package.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../../../src/neorv32/rtl/system_integration/neorv32_SystemTop_axi4lite.vhd" \
+
+vhdl neorv32  \
+"../../../../../../src/neorv32/rtl/core/neorv32_application_image.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_boot_rom.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_bootloader_image.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cfs.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_fifo.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_decompressor.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_control.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_regfile.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_cp_shifter.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_cp_cfu.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_alu.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_lsu.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu_pmp.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_cpu.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_crc.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_dcache.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_debug_dm.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_debug_dtm.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_dma.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_dmem.entity.vhd" \
+"../../../../../../src/neorv32/rtl/core/mem/neorv32_dmem.legacy.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_gpio.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_gptmr.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_icache.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_imem.entity.vhd" \
+"../../../../../../src/neorv32/rtl/core/mem/neorv32_imem.legacy.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_intercon.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_mtime.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_neoled.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_onewire.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_pwm.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_sdi.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_slink.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_spi.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_sysinfo.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_xip.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_wishbone.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_wdt.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_uart.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_twi.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_trng.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_xirq.vhd" \
+"../../../../../../src/neorv32/rtl/core/neorv32_top.vhd" \
+
+# Do not sort compile order
+nosort

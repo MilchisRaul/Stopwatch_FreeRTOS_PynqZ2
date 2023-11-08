@@ -1,0 +1,55 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/VivadoSuiteStandard/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L neorv32 -L unisims_ver -L unimacro_ver -L secureip --snapshot neorv32_integration_top_behav xil_defaultlib.neorv32_integration_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'spi_csn_o' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:188]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package neorv32.neorv32_package
+Compiling package neorv32.neorv32_application_image
+Compiling package neorv32.neorv32_bootloader_image
+Compiling architecture neorv32_fifo_rtl of entity neorv32.neorv32_fifo [\neorv32_fifo(fifo_depth=2,fifo_...]
+Compiling architecture neorv32_cpu_control_rtl of entity neorv32.neorv32_cpu_control [\neorv32_cpu_control(hart_id="00...]
+Compiling architecture neorv32_cpu_regfile_rtl of entity neorv32.neorv32_cpu_regfile [\neorv32_cpu_regfile(rve_en=fals...]
+Compiling architecture neorv32_cpu_cp_shifter_rtl of entity neorv32.neorv32_cpu_cp_shifter [\neorv32_cpu_cp_shifter(fast_shi...]
+Compiling architecture neorv32_cpu_cpu_rtl of entity neorv32.neorv32_cpu_alu [\neorv32_cpu_alu(cpu_extension_r...]
+Compiling architecture neorv32_cpu_lsu_rtl of entity neorv32.neorv32_cpu_lsu [\neorv32_cpu_lsu(amo_lrsc_enable...]
+Compiling architecture neorv32_cpu_rtl of entity neorv32.neorv32_cpu [\neorv32_cpu(hart_id="0000000000...]
+Compiling architecture neorv32_bus_switch_rtl of entity neorv32.neorv32_bus_switch [\neorv32_bus_switch(port_a_read_...]
+Compiling architecture neorv32_imem_rtl of entity neorv32.neorv32_imem [\neorv32_imem(imem_size=16384,im...]
+Compiling architecture neorv32_dmem_rtl of entity neorv32.neorv32_dmem [\neorv32_dmem(dmem_size=8192)\]
+Compiling architecture neorv32_boot_rom_rtl of entity neorv32.neorv32_boot_rom [neorv32_boot_rom_default]
+Compiling architecture neorv32_wishbone_rtl of entity neorv32.neorv32_wishbone [\neorv32_wishbone(bus_timeout=0,...]
+Compiling architecture neorv32_wdt_rtl of entity neorv32.neorv32_wdt [neorv32_wdt_default]
+Compiling architecture neorv32_mtime_rtl of entity neorv32.neorv32_mtime [neorv32_mtime_default]
+Compiling architecture neorv32_fifo_rtl of entity neorv32.neorv32_fifo [\neorv32_fifo(fifo_depth=1,fifo_...]
+Compiling architecture neorv32_uart_rtl of entity neorv32.neorv32_uart [\neorv32_uart(sim_log_file="neor...]
+Compiling architecture neorv32_uart_rtl of entity neorv32.neorv32_uart [\neorv32_uart(sim_log_file="neor...]
+Compiling architecture neorv32_spi_rtl of entity neorv32.neorv32_spi [\neorv32_spi(io_spi_fifo=1)\]
+Compiling architecture neorv32_twi_rtl of entity neorv32.neorv32_twi [neorv32_twi_default]
+Compiling architecture neotrng_cell_rtl of entity neorv32.neoTRNG_cell [\neoTRNG_cell(num_inv_s=3,num_in...]
+Compiling architecture neotrng_cell_rtl of entity neorv32.neoTRNG_cell [\neoTRNG_cell(num_inv_s=5,num_in...]
+Compiling architecture neotrng_cell_rtl of entity neorv32.neoTRNG_cell [\neoTRNG_cell(num_inv_s=7,num_in...]
+Compiling architecture neotrng_rtl of entity neorv32.neoTRNG [\neoTRNG(num_cells=3,num_inv_sta...]
+Compiling architecture neorv32_trng_rtl of entity neorv32.neorv32_trng [\neorv32_trng(io_trng_fifo=1)\]
+Compiling architecture neorv32_fifo_rtl of entity neorv32.neorv32_fifo [\neorv32_fifo(fifo_depth=1,fifo_...]
+Compiling architecture neorv32_neoled_rtl of entity neorv32.neorv32_neoled [\neorv32_neoled(fifo_depth=1)\]
+Compiling architecture neorv32_bus_io_switch_rtl of entity neorv32.neorv32_bus_io_switch [\neorv32_bus_io_switch(dev_size=...]
+Compiling architecture neorv32_sysinfo_rtl of entity neorv32.neorv32_sysinfo [\neorv32_sysinfo(clock_frequency...]
+Compiling architecture neorv32_bus_gateway_rtl of entity neorv32.neorv32_bus_gateway [\neorv32_bus_gateway(timeout=15,...]
+Compiling architecture neorv32_top_rtl of entity neorv32.neorv32_top [\neorv32_top(int_bootloader_en=t...]
+Compiling architecture neorv32_systemtop_axi4lite_rtl of entity xil_defaultlib.neorv32_SystemTop_axi4lite [neorv32_systemtop_axi4lite_defau...]
+Compiling module xil_defaultlib.neorv32_integration_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot neorv32_integration_top_behav

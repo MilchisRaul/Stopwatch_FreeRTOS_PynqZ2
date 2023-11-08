@@ -1,0 +1,23 @@
+Time resolution is 1 ps
+Warning: neoTRNG WARNING: Simulation mode (PRNG!) enabled!
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/io_system/neorv32_trng_inst_true/neorv32_trng_inst/neoTRNG_inst/line__391  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_trng.vhd
+Note: << neoTRNG V2 - A Tiny and Platform-Independent True Random Number Generator for any FPGA >>
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/io_system/neorv32_trng_inst_true/neorv32_trng_inst/neoTRNG_inst/line__390  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_trng.vhd
+Warning: NEORV32 PROCESSOR CONFIG WARNING! Ext. Bus Interface - NO auto-timeout defined; can cause permanent CPU stall!
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/memory_system/neorv32_wishbone_inst_true/neorv32_wishbone_inst/line__132  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_wishbone.vhd
+Note: NEORV32 PROCESSOR CONFIG NOTE: Ext. Bus Interface - CLASSIC/STANDARD Wishbone protocol, NO auto-timeout, LITTLE-endian byte order, registered RX, registered TX
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/memory_system/neorv32_wishbone_inst_true/neorv32_wishbone_inst/line__118  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_wishbone.vhd
+Note: NEORV32 PROCESSOR CONFIG NOTE: Implementing internal bootloader ROM (4096 bytes).
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/memory_system/neorv32_boot_rom_inst_true/neorv32_boot_rom_inst/line__68  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_boot_rom.vhd
+Note: NEORV32 PROCESSOR CONFIG NOTE: Implementing LEGACY processor-internal DMEM (RAM, 8192 bytes).
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/memory_system/neorv32_int_dmem_inst_true/neorv32_int_dmem_inst/line__72  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/mem/neorv32_dmem.legacy.vhd
+Note: NEORV32 PROCESSOR CONFIG NOTE: Implementing processor-internal IMEM as blank RAM (16384 bytes).
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/memory_system/neorv32_int_imem_inst_true/neorv32_int_imem_inst/line__93  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/mem/neorv32_imem.legacy.vhd
+Warning: NEORV32 CPU WARNING! Assuming this is a simulation.
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/core_complex/neorv32_cpu_inst/line__163  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_cpu.vhd
+Note: NEORV32 CPU Configuration: RV32I_Zicsr_Zicntr_Zifencei
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/core_complex/neorv32_cpu_inst/line__142  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_cpu.vhd
+Note: NEORV32 Processor Configuration: IMEM DMEM BOOTROM WISHBONE MTIME UART0 UART1 SPI TWI WDT TRNG NEOLED SYSINFO 
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/sanity_checks/line__349  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_top.vhd
+Note: The NEORV32 RISC-V Processor by Stephan Nolting,version 0x01090006, github.com/stnolting/neorv32
+Time: 0 ps  Iteration: 0  Process: /neorv32_integration_top/rv_top/neorv32_top_inst/sanity_checks/line__343  File: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_top.vhd
