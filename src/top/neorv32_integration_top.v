@@ -267,7 +267,7 @@ module neorv32_integration_top #(
     .IO_SLINK_RX_FIFO (IO_SLINK_RX_FIFO ),            // RX fifo depth, has to be a power of two, min 1
     .IO_SLINK_TX_FIFO (IO_SLINK_TX_FIFO ),            // TX fifo depth, has to be a power of two, min 1
     .IO_CRC_EN        (IO_CRC_EN        )             // implement cyclic redundancy check unit (CRC)?
-  ) rv_top (
+  ) rv_top_i (
     // ------------------------------------------------------------
     // AXI4-Lite-Compatible Master Interface --
     // ------------------------------------------------------------

@@ -24,7 +24,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log neorv32_integration_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source neorv32_integration_top.tcl" );
+         "-log RV_RTDS_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RV_RTDS_wrapper.tcl" );
 
 
 
