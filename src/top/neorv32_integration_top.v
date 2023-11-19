@@ -326,8 +326,8 @@ module neorv32_integration_top #(
     .xip_dat_i     (xip_dat_i     ),  // device data input
     .xip_dat_o     (xip_dat_o     ),  // controller data output
     // GPIO (available if IO_GPIO_EN = true) --
-    .gpio_o        ({32'd0,gpio_o}),  // /63/|000.../31/|gpio|/0/ - parallel output
-    .gpio_i        ({32'd0,gpio_i}),  // /63/|000.../31/|gpio|/0/ - parallel input
+    .gpio_o        (gpio_o),  // /63/|000.../31/|gpio|/0/ - parallel output
+    .gpio_i        (gpio_i),  // /63/|000.../31/|gpio|/0/ - parallel input
     // primary UART0 (available if IO_UART0_EN = true) --
     .uart0_txd_o   (uart0_txd_o   ),  // UART0 send data
     .uart0_rxd_i   (uart0_rxd_i   ),  // UART0 receive data

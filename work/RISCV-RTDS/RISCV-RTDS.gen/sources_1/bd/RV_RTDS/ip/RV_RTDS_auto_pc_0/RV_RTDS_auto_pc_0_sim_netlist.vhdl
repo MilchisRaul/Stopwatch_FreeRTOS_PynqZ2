@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
 -- Date        : Thu Nov  9 17:33:58 2023
 -- Host        : DESKTOP-CA1TKI1 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim {c:/Users/raulm/Desktop/Facultate/Master/Anul
---               1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_auto_pc_0/RV_RTDS_auto_pc_0_sim_netlist.vhdl}
+-- Command     : write_vhdl -force -mode funcsim -rename_top RV_RTDS_auto_pc_0 -prefix
+--               RV_RTDS_auto_pc_0_ RV_RTDS_auto_pc_0_sim_netlist.vhdl
 -- Design      : RV_RTDS_auto_pc_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -144,8 +144,6 @@ entity RV_RTDS_auto_pc_0_axi_protocol_converter_v2_1_29_axi_protocol_converter i
   attribute C_TRANSLATION_MODE of RV_RTDS_auto_pc_0_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is 2;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of RV_RTDS_auto_pc_0_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of RV_RTDS_auto_pc_0_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is "axi_protocol_converter_v2_1_29_axi_protocol_converter";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of RV_RTDS_auto_pc_0_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is 1;
   attribute P_AXI4 : integer;

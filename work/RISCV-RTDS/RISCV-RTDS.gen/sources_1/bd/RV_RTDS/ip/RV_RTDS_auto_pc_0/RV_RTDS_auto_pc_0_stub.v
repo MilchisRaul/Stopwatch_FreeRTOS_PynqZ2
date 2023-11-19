@@ -2,10 +2,10 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-// Date        : Thu Nov  9 17:33:58 2023
+// Date        : Thu Nov  9 17:33:57 2023
 // Host        : DESKTOP-CA1TKI1 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub {c:/Users/raulm/Desktop/Facultate/Master/Anul
-//               1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_auto_pc_0/RV_RTDS_auto_pc_0_stub.v}
+// Command     : write_verilog -force -mode synth_stub -rename_top RV_RTDS_auto_pc_0 -prefix
+//               RV_RTDS_auto_pc_0_ RV_RTDS_auto_pc_0_stub.v
 // Design      : RV_RTDS_auto_pc_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1

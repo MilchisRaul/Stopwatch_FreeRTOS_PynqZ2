@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"0.441941",
-   "Default View_TopLeft":"-1530,-1527",
+   "Default View_TopLeft":"-1462,-1844",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
 #  -string -flagsOSRD
@@ -15,24 +15,24 @@ preplace port port-id_spi_dat_i -pg 1 -lvl 0 -x -200 -y -470 -defaultsOSRD
 preplace port port-id_sdi_clk_i -pg 1 -lvl 0 -x -200 -y -500 -defaultsOSRD
 preplace port port-id_sdi_csn_i -pg 1 -lvl 0 -x -200 -y -410 -defaultsOSRD
 preplace port port-id_sdi_dat_i -pg 1 -lvl 0 -x -200 -y -440 -defaultsOSRD
-preplace port port-id_uart0_txd_o -pg 1 -lvl 7 -x 2190 -y -780 -defaultsOSRD
-preplace port port-id_uart0_rts_o -pg 1 -lvl 7 -x 2190 -y -750 -defaultsOSRD
-preplace port port-id_neoled_o -pg 1 -lvl 7 -x 2190 -y -320 -defaultsOSRD
-preplace port port-id_onewire_o -pg 1 -lvl 7 -x 2190 -y -380 -defaultsOSRD
-preplace port port-id_sdi_dat_o -pg 1 -lvl 7 -x 2190 -y -440 -defaultsOSRD
-preplace port port-id_spi_dat_o -pg 1 -lvl 7 -x 2190 -y -470 -defaultsOSRD
-preplace port port-id_uart1_rts_o -pg 1 -lvl 7 -x 2190 -y -810 -defaultsOSRD
-preplace port port-id_spi_clk_o -pg 1 -lvl 7 -x 2190 -y -500 -defaultsOSRD
-preplace port port-id_uart1_txd_o -pg 1 -lvl 7 -x 2190 -y -540 -defaultsOSRD
+preplace port port-id_uart0_txd_o -pg 1 -lvl 7 -x 2220 -y -780 -defaultsOSRD
+preplace port port-id_uart0_rts_o -pg 1 -lvl 7 -x 2220 -y -750 -defaultsOSRD
+preplace port port-id_neoled_o -pg 1 -lvl 7 -x 2220 -y -320 -defaultsOSRD
+preplace port port-id_onewire_o -pg 1 -lvl 7 -x 2220 -y -380 -defaultsOSRD
+preplace port port-id_sdi_dat_o -pg 1 -lvl 7 -x 2220 -y -440 -defaultsOSRD
+preplace port port-id_spi_dat_o -pg 1 -lvl 7 -x 2220 -y -470 -defaultsOSRD
+preplace port port-id_uart1_rts_o -pg 1 -lvl 7 -x 2220 -y -810 -defaultsOSRD
+preplace port port-id_spi_clk_o -pg 1 -lvl 7 -x 2220 -y -500 -defaultsOSRD
+preplace port port-id_uart1_txd_o -pg 1 -lvl 7 -x 2220 -y -540 -defaultsOSRD
 preplace portBus gpio_i -pg 1 -lvl 0 -x -200 -y -670 -defaultsOSRD
-preplace portBus gpio_out -pg 1 -lvl 7 -x 2190 -y -410 -defaultsOSRD
-preplace portBus spi_csn0 -pg 1 -lvl 7 -x 2190 -y -290 -defaultsOSRD
-preplace portBus pwm -pg 1 -lvl 7 -x 2190 -y -200 -defaultsOSRD
+preplace portBus gpio_out -pg 1 -lvl 7 -x 2220 -y -410 -defaultsOSRD
+preplace portBus spi_csn0 -pg 1 -lvl 7 -x 2220 -y -290 -defaultsOSRD
+preplace portBus pwm -pg 1 -lvl 7 -x 2220 -y -200 -defaultsOSRD
 preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1230 -y -630 -defaultsOSRD
 preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -x 1760 -y -660 -defaultsOSRD
 preplace inst axi_bram_ctrl_1 -pg 1 -lvl 5 -x 1760 -y -520 -defaultsOSRD
-preplace inst blk_mem_gen_0 -pg 1 -lvl 6 -x 2020 -y -640 -defaultsOSRD
-preplace inst blk_mem_gen_1 -pg 1 -lvl 6 -x 2020 -y -520 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 6 -x 2040 -y -640 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 6 -x 2040 -y -520 -defaultsOSRD
 preplace inst xlslice_0 -pg 1 -lvl 4 -x 1230 -y -200 -defaultsOSRD
 preplace inst xlslice_1 -pg 1 -lvl 4 -x 1230 -y -300 -defaultsOSRD
 preplace inst xlslice_2 -pg 1 -lvl 4 -x 1230 -y -400 -defaultsOSRD
@@ -42,47 +42,47 @@ preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 230 -y -760 -defaultsOSRD
 preplace inst xlconstant_1 -pg 1 -lvl 1 -x 230 -y -580 -defaultsOSRD
 preplace inst rst_clk_wiz_0_100M -pg 1 -lvl 3 -x 750 -y -1020 -defaultsOSRD
 preplace inst neorv32_integration_0 -pg 1 -lvl 3 -x 750 -y -520 -defaultsOSRD
-preplace netloc clk_wiz_0_clk_out1 1 1 4 N -770 540 -830 1000 -820 1630
-preplace netloc clk_wiz_0_locked 1 1 2 330 -980 N
-preplace netloc gpio_i_1 1 0 2 -170J -660 330
-preplace netloc neorv32_integration_0_gpio_o 1 3 1 1060 -600n
-preplace netloc neorv32_integration_0_neoled_o 1 3 4 1090 -470 1380J -420 NJ -420 2140J
-preplace netloc neorv32_integration_0_onewire_o 1 3 4 1070 -490 1400J -430 NJ -430 2150J
+preplace netloc clk_wiz_0_clk_out1 1 1 4 N -770 540 -830 990 -820 1620
+preplace netloc clk_wiz_0_locked 1 1 2 320 -980 N
+preplace netloc gpio_i_1 1 0 2 -170J -660 320
+preplace netloc neorv32_integration_0_gpio_o 1 3 1 1050 -600n
+preplace netloc neorv32_integration_0_neoled_o 1 3 4 1080 -470 1390J -420 NJ -420 2170J
+preplace netloc neorv32_integration_0_onewire_o 1 3 4 1060 -490 1410J -430 NJ -430 2180J
 preplace netloc neorv32_integration_0_pwm_o 1 3 1 920 -360n
-preplace netloc neorv32_integration_0_sdi_dat_o 1 3 4 1080 -460 1370J -410 NJ -410 2160J
-preplace netloc neorv32_integration_0_spi_clk_o 1 3 4 1010 -830 NJ -830 NJ -830 2170J
+preplace netloc neorv32_integration_0_sdi_dat_o 1 3 4 1070 -460 1380J -410 NJ -410 2190J
+preplace netloc neorv32_integration_0_spi_clk_o 1 3 4 1000 -830 NJ -830 NJ -830 2200J
 preplace netloc neorv32_integration_0_spi_csn_o 1 3 1 970 -460n
-preplace netloc neorv32_integration_0_spi_dat_o 1 3 4 N -480 1390J -440 NJ -440 2140J
-preplace netloc neorv32_integration_0_uart0_rts_o 1 3 4 1050 -770 NJ -770 NJ -770 2140J
+preplace netloc neorv32_integration_0_spi_dat_o 1 3 4 N -480 1400J -440 NJ -440 2170J
+preplace netloc neorv32_integration_0_uart0_rts_o 1 3 4 1040 -770 NJ -770 NJ -770 2170J
 preplace netloc neorv32_integration_0_uart0_txd_o 1 3 4 920 -780 NJ -780 NJ -780 NJ
-preplace netloc neorv32_integration_0_uart1_rts_o 1 3 4 1020J -810 NJ -810 NJ -810 N
-preplace netloc neorv32_integration_0_uart1_txd_o 1 3 4 1030 -800 NJ -800 NJ -800 2160J
-preplace netloc reset_rtl_1 1 0 3 110J -1040 N -1040 N
-preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 2 3 580 -820 990 -790 1610
+preplace netloc neorv32_integration_0_uart1_rts_o 1 3 4 1010J -810 NJ -810 NJ -810 N
+preplace netloc neorv32_integration_0_uart1_txd_o 1 3 4 1020 -800 NJ -800 NJ -800 2190J
+preplace netloc reset_rtl_1 1 0 3 120J -1040 N -1040 N
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 2 3 580 -820 980 -790 1600
 preplace netloc sdi_clk_i_1 1 0 3 -180J -480 NJ -480 N
-preplace netloc sdi_csn_i_1 1 0 3 NJ -410 NJ -410 580
-preplace netloc sdi_dat_i_1 1 0 3 NJ -440 NJ -440 540
+preplace netloc sdi_csn_i_1 1 0 3 NJ -410 NJ -410 570
+preplace netloc sdi_dat_i_1 1 0 3 NJ -440 NJ -440 530
 preplace netloc spi_dat_i_1 1 0 3 -150J -500 NJ -500 N
 preplace netloc sys_clock_1 1 0 1 -180J -790n
-preplace netloc uart0_cts_i_1 1 0 3 -180J -690 NJ -690 580
-preplace netloc uart0_rxd_i_1 1 0 3 -170J -680 NJ -680 570
-preplace netloc uart1_cts_i_1 1 0 3 -160J -670 NJ -670 550
-preplace netloc uart1_rxd_i_1 1 0 3 -150J -650 340J -660 540
-preplace netloc xlconcat_0_dout 1 2 1 560 -600n
+preplace netloc uart0_cts_i_1 1 0 3 -180J -690 NJ -690 570
+preplace netloc uart0_rxd_i_1 1 0 3 -170J -680 NJ -680 560
+preplace netloc uart1_cts_i_1 1 0 3 -160J -670 NJ -670 540
+preplace netloc uart1_rxd_i_1 1 0 3 -150J -650 330J -660 530
+preplace netloc xlconcat_0_dout 1 2 1 550 -600n
 preplace netloc xlconstant_0_dout 1 1 2 NJ -350 540
 preplace netloc xlconstant_1_dout 1 1 1 N -580
 preplace netloc xlslice_0_Dout 1 4 3 NJ -200 NJ -200 N
-preplace netloc xlslice_1_Dout 1 4 3 NJ -300 NJ -300 2140
-preplace netloc xlslice_2_Dout 1 4 3 NJ -400 NJ -400 2170
-preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 1900 -670n
-preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 5 1 1890 -650n
+preplace netloc xlslice_1_Dout 1 4 3 NJ -300 NJ -300 2170
+preplace netloc xlslice_2_Dout 1 4 3 NJ -400 NJ -400 2200
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 1910 -670n
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 5 1 1900 -650n
 preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 5 1 N -530
 preplace netloc axi_bram_ctrl_1_BRAM_PORTB 1 5 1 N -510
-preplace netloc axi_interconnect_0_M00_AXI 1 4 1 1370 -680n
-preplace netloc axi_interconnect_0_M01_AXI 1 4 1 1620 -620n
-preplace netloc neorv32_integration_0_m_axi 1 3 1 1040 -710n
-levelinfo -pg 1 -200 230 440 750 1230 1760 2020 2190
-pagesize -pg 1 -db -bbox -sgen -330 -1640 2350 1240
+preplace netloc axi_interconnect_0_M00_AXI 1 4 1 1380 -680n
+preplace netloc axi_interconnect_0_M01_AXI 1 4 1 1610 -620n
+preplace netloc neorv32_integration_0_m_axi 1 3 1 1030 -710n
+levelinfo -pg 1 -200 230 440 750 1230 1760 2040 2220
+pagesize -pg 1 -db -bbox -sgen -330 -1640 2360 1240
 "
 }
 {

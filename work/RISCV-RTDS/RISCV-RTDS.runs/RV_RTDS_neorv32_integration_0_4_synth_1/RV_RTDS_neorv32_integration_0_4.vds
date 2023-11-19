@@ -3,8 +3,8 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Thu Nov  9 17:32:13 2023
-# Process ID: 17920
+# Start of session at: Sun Nov 19 15:30:22 2023
+# Process ID: 9048
 # Current directory: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/RV_RTDS_neorv32_integration_0_4_synth_1
 # Command line: vivado.exe -log RV_RTDS_neorv32_integration_0_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RV_RTDS_neorv32_integration_0_4.tcl
 # Log file: C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/RV_RTDS_neorv32_integration_0_4_synth_1/RV_RTDS_neorv32_integration_0_4.vds
@@ -12,7 +12,7 @@
 # Running On: DESKTOP-CA1TKI1, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 17042 MB
 #-----------------------------------------------------------
 source RV_RTDS_neorv32_integration_0_4.tcl -notrace
-create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 484.488 ; gain = 179.121
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 485.277 ; gain = 179.953
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VivadoSuiteStandard/Vivado/2023.2/data/ip'.
@@ -26,9 +26,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 16280
+INFO: [Synth 8-7075] Helper process launched with PID 13852
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1359.016 ; gain = 438.777
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1359.848 ; gain = 439.574
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-10592] closing label :neorv32_integration_top is only allowed in SystemVerilog mode [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:375]
 WARNING: [Synth 8-10592] closing label :neorv32_integration_top is only allowed in SystemVerilog mode [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:375]
@@ -608,7 +608,7 @@ INFO: [Synth 8-638] synthesizing module 'neorv32_sysinfo' [C:/Users/raulm/Deskto
 INFO: [Synth 8-256] done synthesizing module 'neorv32_sysinfo' (0#1) [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_sysinfo.vhd:100]
 INFO: [Synth 8-256] done synthesizing module 'neorv32_top' (0#1) [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_top.vhd:252]
 INFO: [Synth 8-256] done synthesizing module 'neorv32_SystemTop_axi4lite' (0#1) [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/system_integration/neorv32_SystemTop_axi4lite.vhd:237]
-WARNING: [Synth 8-2900] ignoring illegal expression in output port connection [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:329]
+WARNING: [Synth 8-689] width (32) of port connection 'gpio_o' does not match port width (64) of module 'neorv32_SystemTop_axi4lite' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:329]
 WARNING: [Synth 8-689] width (1) of port connection 'spi_csn_o' does not match port width (8) of module 'neorv32_SystemTop_axi4lite' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:345]
 WARNING: [Synth 8-689] width (1) of port connection 'pwm_o' does not match port width (12) of module 'neorv32_SystemTop_axi4lite' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:360]
 WARNING: [Synth 8-689] width (1) of port connection 'cfs_out_o' does not match port width (32) of module 'neorv32_SystemTop_axi4lite' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:363]
@@ -748,45 +748,45 @@ WARNING: [Synth 8-7129] Port bus_req_i[addr][1] in module neorv32_neoled is eith
 WARNING: [Synth 8-7129] Port bus_req_i[addr][0] in module neorv32_neoled is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1525.996 ; gain = 605.758
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1526.305 ; gain = 606.031
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1525.996 ; gain = 605.758
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1526.305 ; gain = 606.031
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1525.996 ; gain = 605.758
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1526.305 ; gain = 606.031
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.271 . Memory (MB): peak = 1525.996 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.191 . Memory (MB): peak = 1526.305 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1628.941 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1626.355 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.161 . Memory (MB): peak = 1632.820 ; gain = 3.879
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.149 . Memory (MB): peak = 1630.105 ; gain = 3.750
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'fetch_engine_reg[state]' in module 'neorv32_cpu_control'
 INFO: [Synth 8-802] inferred FSM for state register 'execute_engine_reg[state]' in module 'neorv32_cpu_control'
@@ -834,7 +834,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'real_hardware.inv_chain_l_r
 WARNING: [Synth 8-327] inferring latch for variable 'real_hardware.inv_chain_s_reg' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_trng.vhd:677]
 WARNING: [Synth 8-327] inferring latch for variable 'real_hardware.inv_chain_l_reg' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_trng.vhd:693]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -978,7 +978,7 @@ RAM Pipeline Warning: Read Address Register Found For RAM mem_ram_b3_reg. We wil
 WARNING: [Synth 8-3332] Sequential element (neorv32_cpu_control_inst/FSM_onehot_execute_engine_reg[state][13]) is unused and will be removed from module neorv32_cpu.
 WARNING: [Synth 8-3332] Sequential element (neorv32_cpu_control_inst/FSM_onehot_execute_engine_reg[state][7]) is unused and will be removed from module neorv32_cpu.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:08 ; elapsed = 00:01:13 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -993,19 +993,19 @@ ROM: Preliminary Mapping Report
 
 
 Block RAM: Preliminary Mapping Report (see note below)
-+------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|Module Name                                                                                     | RTL Object                            | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
-+------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|\inst/rv_top/neorv32_top_inst /\core_complex.neorv32_cpu_inst                                   | neorv32_cpu_regfile_inst/reg_file_reg | 32 x 32(READ_FIRST)    | W | R | 32 x 32(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b0_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b1_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b2_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b3_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b0_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b1_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b2_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b3_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-+------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
++--------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                                                       | RTL Object                            | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|\inst/rv_top_i/neorv32_top_inst /\core_complex.neorv32_cpu_inst                                   | neorv32_cpu_regfile_inst/reg_file_reg | 32 x 32(READ_FIRST)    | W | R | 32 x 32(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b0_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b1_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b2_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b3_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b0_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b1_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b2_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b3_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
++--------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 
 Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
 ---------------------------------------------------------------------------------
@@ -1015,32 +1015,32 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:19 ; elapsed = 00:01:24 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Timing Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:00 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
 Block RAM: Final Mapping Report
-+------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|Module Name                                                                                     | RTL Object                            | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
-+------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|\inst/rv_top/neorv32_top_inst /\core_complex.neorv32_cpu_inst                                   | neorv32_cpu_regfile_inst/reg_file_reg | 32 x 32(READ_FIRST)    | W | R | 32 x 32(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b0_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b1_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b2_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b3_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b0_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b1_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b2_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-|\inst/rv_top/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b3_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-+------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
++--------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                                                       | RTL Object                            | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|\inst/rv_top_i/neorv32_top_inst /\core_complex.neorv32_cpu_inst                                   | neorv32_cpu_regfile_inst/reg_file_reg | 32 x 32(READ_FIRST)    | W | R | 32 x 32(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b0_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b1_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b2_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst  | imem_ram.mem_ram_b3_reg               | 4 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b0_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b1_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b2_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
+|\inst/rv_top_i/neorv32_top_inst /\memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst  | mem_ram_b3_reg                        | 2 K x 8(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
++--------------------------------------------------------------------------------------------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -1048,19 +1048,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b2_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b3_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b2_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b3_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/rv_top/neorv32_top_inst/memory_system.neorv32_boot_rom_inst_true.neorv32_boot_rom_inst/rdata_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b2_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b3_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b2_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b3_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_boot_rom_inst_true.neorv32_boot_rom_inst/rdata_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:21 ; elapsed = 00:01:26 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Technology Mapping : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -1078,37 +1078,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:30 ; elapsed = 00:01:35 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished IO Insertion : Time (s): cpu = 00:01:08 ; elapsed = 00:01:10 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:30 ; elapsed = 00:01:35 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:08 ; elapsed = 00:01:10 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:30 ; elapsed = 00:01:36 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:08 ; elapsed = 00:01:10 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:30 ; elapsed = 00:01:36 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:10 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:31 ; elapsed = 00:01:36 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:08 ; elapsed = 00:01:10 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:31 ; elapsed = 00:01:36 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:08 ; elapsed = 00:01:10 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1141,32 +1141,32 @@ Report Cell Usage:
 |17    |LDC      |    36|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:31 ; elapsed = 00:01:36 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:08 ; elapsed = 00:01:10 . Memory (MB): peak = 1630.105 ; gain = 709.832
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1237 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:05 ; elapsed = 00:01:30 . Memory (MB): peak = 1632.820 ; gain = 605.758
-Synthesis Optimization Complete : Time (s): cpu = 00:01:31 ; elapsed = 00:01:36 . Memory (MB): peak = 1632.820 ; gain = 712.582
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:01:06 . Memory (MB): peak = 1630.105 ; gain = 606.031
+Synthesis Optimization Complete : Time (s): cpu = 00:01:09 ; elapsed = 00:01:11 . Memory (MB): peak = 1630.105 ; gain = 709.832
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.165 . Memory (MB): peak = 1632.820 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.127 . Memory (MB): peak = 1630.105 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 175 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1632.820 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1630.105 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 36 instances were transformed.
   LDC => LDCE: 36 instances
 
-Synth Design complete | Checksum: d891f3ba
+Synth Design complete | Checksum: 791c8479
 INFO: [Common 17-83] Releasing license: Synthesis
 110 Infos, 149 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:41 ; elapsed = 00:01:48 . Memory (MB): peak = 1632.820 ; gain = 1132.246
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1632.820 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:16 ; elapsed = 00:01:20 . Memory (MB): peak = 1630.105 ; gain = 1128.297
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1630.105 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/RV_RTDS_neorv32_integration_0_4_synth_1/RV_RTDS_neorv32_integration_0_4.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP RV_RTDS_neorv32_integration_0_4, cache-ID = 52967b1adcd45345
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP RV_RTDS_neorv32_integration_0_4, cache-ID = ca38b1300fbb861b
 INFO: [Coretcl 2-1174] Renamed 39 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1632.820 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1630.105 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/RV_RTDS_neorv32_integration_0_4_synth_1/RV_RTDS_neorv32_integration_0_4.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file RV_RTDS_neorv32_integration_0_4_utilization_synth.rpt -pb RV_RTDS_neorv32_integration_0_4_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov  9 17:34:21 2023...
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 19 15:31:58 2023...

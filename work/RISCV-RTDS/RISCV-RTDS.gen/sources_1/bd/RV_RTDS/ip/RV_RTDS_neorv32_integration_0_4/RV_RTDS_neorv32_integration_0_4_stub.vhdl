@@ -2,7 +2,7 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
--- Date        : Thu Nov  9 17:34:20 2023
+-- Date        : Sun Nov 19 15:31:57 2023
 -- Host        : DESKTOP-CA1TKI1 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub {c:/Users/raulm/Desktop/Facultate/Master/Anul
 --               1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_neorv32_integration_0_4/RV_RTDS_neorv32_integration_0_4_stub.vhdl}

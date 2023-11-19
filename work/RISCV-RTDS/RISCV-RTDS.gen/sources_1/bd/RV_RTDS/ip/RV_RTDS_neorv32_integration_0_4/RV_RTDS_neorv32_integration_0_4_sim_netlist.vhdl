@@ -2,7 +2,7 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
--- Date        : Thu Nov  9 17:34:21 2023
+-- Date        : Sun Nov 19 15:31:57 2023
 -- Host        : DESKTOP-CA1TKI1 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim {c:/Users/raulm/Desktop/Facultate/Master/Anul
 --               1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_neorv32_integration_0_4/RV_RTDS_neorv32_integration_0_4_sim_netlist.vhdl}
@@ -1254,7 +1254,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_boot_rom is
   attribute RTL_RAM_BITS : integer;
   attribute RTL_RAM_BITS of rdata_reg : label is 32768;
   attribute RTL_RAM_NAME : string;
-  attribute RTL_RAM_NAME of rdata_reg : label is "inst/rv_top/neorv32_top_inst/memory_system.neorv32_boot_rom_inst_true.neorv32_boot_rom_inst/rdata_reg";
+  attribute RTL_RAM_NAME of rdata_reg : label is "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_boot_rom_inst_true.neorv32_boot_rom_inst/rdata_reg";
   attribute RTL_RAM_TYPE : string;
   attribute RTL_RAM_TYPE of rdata_reg : label is "RAM_SP";
   attribute ram_addr_begin : integer;
@@ -5941,7 +5941,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_cpu_regfile is
   attribute RTL_RAM_BITS : integer;
   attribute RTL_RAM_BITS of reg_file_reg : label is 1024;
   attribute RTL_RAM_NAME : string;
-  attribute RTL_RAM_NAME of reg_file_reg : label is "inst/rv_top/neorv32_top_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg";
+  attribute RTL_RAM_NAME of reg_file_reg : label is "inst/rv_top_i/neorv32_top_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg";
   attribute RTL_RAM_TYPE : string;
   attribute RTL_RAM_TYPE of reg_file_reg : label is "RAM_TDP";
   attribute ram_addr_begin : integer;
@@ -6783,7 +6783,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_dmem is
   attribute RTL_RAM_BITS : integer;
   attribute RTL_RAM_BITS of mem_ram_b0_reg : label is 16384;
   attribute RTL_RAM_NAME : string;
-  attribute RTL_RAM_NAME of mem_ram_b0_reg : label is "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b0_reg";
+  attribute RTL_RAM_NAME of mem_ram_b0_reg : label is "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b0_reg";
   attribute RTL_RAM_TYPE : string;
   attribute RTL_RAM_TYPE of mem_ram_b0_reg : label is "RAM_SP";
   attribute ram_addr_begin : integer;
@@ -6799,7 +6799,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_dmem is
   attribute \MEM.PORTA.DATA_BIT_LAYOUT\ of mem_ram_b1_reg : label is "p0_d8";
   attribute METHODOLOGY_DRC_VIOS of mem_ram_b1_reg : label is "{SYNTH-6 {cell *THIS*}}";
   attribute RTL_RAM_BITS of mem_ram_b1_reg : label is 16384;
-  attribute RTL_RAM_NAME of mem_ram_b1_reg : label is "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b1_reg";
+  attribute RTL_RAM_NAME of mem_ram_b1_reg : label is "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b1_reg";
   attribute RTL_RAM_TYPE of mem_ram_b1_reg : label is "RAM_SP";
   attribute ram_addr_begin of mem_ram_b1_reg : label is 0;
   attribute ram_addr_end of mem_ram_b1_reg : label is 2047;
@@ -6809,7 +6809,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_dmem is
   attribute \MEM.PORTA.DATA_BIT_LAYOUT\ of mem_ram_b2_reg : label is "p0_d8";
   attribute METHODOLOGY_DRC_VIOS of mem_ram_b2_reg : label is "{SYNTH-6 {cell *THIS*}}";
   attribute RTL_RAM_BITS of mem_ram_b2_reg : label is 16384;
-  attribute RTL_RAM_NAME of mem_ram_b2_reg : label is "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b2_reg";
+  attribute RTL_RAM_NAME of mem_ram_b2_reg : label is "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b2_reg";
   attribute RTL_RAM_TYPE of mem_ram_b2_reg : label is "RAM_SP";
   attribute ram_addr_begin of mem_ram_b2_reg : label is 0;
   attribute ram_addr_end of mem_ram_b2_reg : label is 2047;
@@ -6819,7 +6819,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_dmem is
   attribute \MEM.PORTA.DATA_BIT_LAYOUT\ of mem_ram_b3_reg : label is "p0_d8";
   attribute METHODOLOGY_DRC_VIOS of mem_ram_b3_reg : label is "{SYNTH-6 {cell *THIS*}}";
   attribute RTL_RAM_BITS of mem_ram_b3_reg : label is 16384;
-  attribute RTL_RAM_NAME of mem_ram_b3_reg : label is "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b3_reg";
+  attribute RTL_RAM_NAME of mem_ram_b3_reg : label is "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b3_reg";
   attribute RTL_RAM_TYPE of mem_ram_b3_reg : label is "RAM_SP";
   attribute ram_addr_begin of mem_ram_b3_reg : label is 0;
   attribute ram_addr_end of mem_ram_b3_reg : label is 2047;
@@ -13653,7 +13653,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_imem is
   attribute RTL_RAM_BITS : integer;
   attribute RTL_RAM_BITS of \imem_ram.mem_ram_b0_reg\ : label is 32768;
   attribute RTL_RAM_NAME : string;
-  attribute RTL_RAM_NAME of \imem_ram.mem_ram_b0_reg\ : label is "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b0_reg";
+  attribute RTL_RAM_NAME of \imem_ram.mem_ram_b0_reg\ : label is "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b0_reg";
   attribute RTL_RAM_TYPE : string;
   attribute RTL_RAM_TYPE of \imem_ram.mem_ram_b0_reg\ : label is "RAM_SP";
   attribute ram_addr_begin : integer;
@@ -13669,7 +13669,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_imem is
   attribute \MEM.PORTA.DATA_BIT_LAYOUT\ of \imem_ram.mem_ram_b1_reg\ : label is "p0_d8";
   attribute METHODOLOGY_DRC_VIOS of \imem_ram.mem_ram_b1_reg\ : label is "{SYNTH-6 {cell *THIS*}}";
   attribute RTL_RAM_BITS of \imem_ram.mem_ram_b1_reg\ : label is 32768;
-  attribute RTL_RAM_NAME of \imem_ram.mem_ram_b1_reg\ : label is "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b1_reg";
+  attribute RTL_RAM_NAME of \imem_ram.mem_ram_b1_reg\ : label is "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b1_reg";
   attribute RTL_RAM_TYPE of \imem_ram.mem_ram_b1_reg\ : label is "RAM_SP";
   attribute ram_addr_begin of \imem_ram.mem_ram_b1_reg\ : label is 0;
   attribute ram_addr_end of \imem_ram.mem_ram_b1_reg\ : label is 4095;
@@ -13679,7 +13679,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_imem is
   attribute \MEM.PORTA.DATA_BIT_LAYOUT\ of \imem_ram.mem_ram_b2_reg\ : label is "p0_d8";
   attribute METHODOLOGY_DRC_VIOS of \imem_ram.mem_ram_b2_reg\ : label is "{SYNTH-6 {cell *THIS*}}";
   attribute RTL_RAM_BITS of \imem_ram.mem_ram_b2_reg\ : label is 32768;
-  attribute RTL_RAM_NAME of \imem_ram.mem_ram_b2_reg\ : label is "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b2_reg";
+  attribute RTL_RAM_NAME of \imem_ram.mem_ram_b2_reg\ : label is "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b2_reg";
   attribute RTL_RAM_TYPE of \imem_ram.mem_ram_b2_reg\ : label is "RAM_SP";
   attribute ram_addr_begin of \imem_ram.mem_ram_b2_reg\ : label is 0;
   attribute ram_addr_end of \imem_ram.mem_ram_b2_reg\ : label is 4095;
@@ -13689,7 +13689,7 @@ architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_imem is
   attribute \MEM.PORTA.DATA_BIT_LAYOUT\ of \imem_ram.mem_ram_b3_reg\ : label is "p0_d8";
   attribute METHODOLOGY_DRC_VIOS of \imem_ram.mem_ram_b3_reg\ : label is "{SYNTH-6 {cell *THIS*}}";
   attribute RTL_RAM_BITS of \imem_ram.mem_ram_b3_reg\ : label is 32768;
-  attribute RTL_RAM_NAME of \imem_ram.mem_ram_b3_reg\ : label is "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b3_reg";
+  attribute RTL_RAM_NAME of \imem_ram.mem_ram_b3_reg\ : label is "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b3_reg";
   attribute RTL_RAM_TYPE of \imem_ram.mem_ram_b3_reg\ : label is "RAM_SP";
   attribute ram_addr_begin of \imem_ram.mem_ram_b3_reg\ : label is 0;
   attribute ram_addr_end of \imem_ram.mem_ram_b3_reg\ : label is 4095;
@@ -55024,7 +55024,7 @@ end RV_RTDS_neorv32_integration_0_4_neorv32_integration_top;
 
 architecture STRUCTURE of RV_RTDS_neorv32_integration_0_4_neorv32_integration_top is
 begin
-rv_top: entity work.RV_RTDS_neorv32_integration_0_4_neorv32_SystemTop_axi4lite
+rv_top_i: entity work.RV_RTDS_neorv32_integration_0_4_neorv32_SystemTop_axi4lite
      port map (
       m_axi_aclk => m_axi_aclk,
       m_axi_aresetn => m_axi_aresetn,

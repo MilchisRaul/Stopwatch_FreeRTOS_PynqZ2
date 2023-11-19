@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-// Date        : Thu Nov  9 17:34:20 2023
+// Date        : Sun Nov 19 15:31:57 2023
 // Host        : DESKTOP-CA1TKI1 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim {c:/Users/raulm/Desktop/Facultate/Master/Anul
 //               1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_neorv32_integration_0_4/RV_RTDS_neorv32_integration_0_4_sim_netlist.v}
@@ -2087,7 +2087,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_boot_rom
   (* \MEM.PORTA.DATA_BIT_LAYOUT  = "p0_d32" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "32768" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/memory_system.neorv32_boot_rom_inst_true.neorv32_boot_rom_inst/rdata_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_boot_rom_inst_true.neorv32_boot_rom_inst/rdata_reg" *) 
   (* RTL_RAM_TYPE = "RAM_SP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "1023" *) 
@@ -24535,7 +24535,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_cpu_regfile
   (* \MEM.PORTB.DATA_BIT_LAYOUT  = "p0_d32" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "1024" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg" *) 
   (* RTL_RAM_TYPE = "RAM_TDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "1023" *) 
@@ -24714,7 +24714,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_dmem
   (* \MEM.PORTA.DATA_BIT_LAYOUT  = "p0_d8" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "16384" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b0_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b0_reg" *) 
   (* RTL_RAM_TYPE = "RAM_SP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "2047" *) 
@@ -24766,7 +24766,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_dmem
   (* \MEM.PORTA.DATA_BIT_LAYOUT  = "p0_d8" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "16384" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b1_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b1_reg" *) 
   (* RTL_RAM_TYPE = "RAM_SP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "2047" *) 
@@ -24818,7 +24818,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_dmem
   (* \MEM.PORTA.DATA_BIT_LAYOUT  = "p0_d8" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "16384" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b2_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b2_reg" *) 
   (* RTL_RAM_TYPE = "RAM_SP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "2047" *) 
@@ -24870,7 +24870,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_dmem
   (* \MEM.PORTA.DATA_BIT_LAYOUT  = "p0_d8" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "16384" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b3_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/mem_ram_b3_reg" *) 
   (* RTL_RAM_TYPE = "RAM_SP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "2047" *) 
@@ -30699,7 +30699,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_imem
   (* \MEM.PORTA.DATA_BIT_LAYOUT  = "p0_d8" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "32768" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b0_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b0_reg" *) 
   (* RTL_RAM_TYPE = "RAM_SP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "4095" *) 
@@ -30765,7 +30765,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_imem
   (* \MEM.PORTA.DATA_BIT_LAYOUT  = "p0_d8" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "32768" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b1_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b1_reg" *) 
   (* RTL_RAM_TYPE = "RAM_SP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "4095" *) 
@@ -30831,7 +30831,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_imem
   (* \MEM.PORTA.DATA_BIT_LAYOUT  = "p0_d8" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "32768" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b2_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b2_reg" *) 
   (* RTL_RAM_TYPE = "RAM_SP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "4095" *) 
@@ -30897,7 +30897,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_imem
   (* \MEM.PORTA.DATA_BIT_LAYOUT  = "p0_d8" *) 
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-6 {cell *THIS*}}" *) 
   (* RTL_RAM_BITS = "32768" *) 
-  (* RTL_RAM_NAME = "inst/rv_top/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b3_reg" *) 
+  (* RTL_RAM_NAME = "inst/rv_top_i/neorv32_top_inst/memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_ram.mem_ram_b3_reg" *) 
   (* RTL_RAM_TYPE = "RAM_SP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "4095" *) 
@@ -31198,7 +31198,7 @@ module RV_RTDS_neorv32_integration_0_4_neorv32_integration_top
   wire uart1_rxd_i;
   wire uart1_txd_o;
 
-  RV_RTDS_neorv32_integration_0_4_neorv32_SystemTop_axi4lite rv_top
+  RV_RTDS_neorv32_integration_0_4_neorv32_SystemTop_axi4lite rv_top_i
        (.m_axi_aclk(m_axi_aclk),
         .m_axi_aresetn(m_axi_aresetn),
         .m_axi_arready(m_axi_arready),
