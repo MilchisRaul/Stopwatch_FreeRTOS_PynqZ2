@@ -372,4 +372,4 @@ module neorv32_integration_top #(
   );
 
 
-endmodule : neorv32_integration_top
+endmodule

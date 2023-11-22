@@ -196,7 +196,7 @@ module rv_rtds_top(
     wire        msw_irq_i     ;  // machine software interrupt
     wire        mext_irq_i    ;  // machine external interrupt
 
-  neorv32_integration_top #(
+  neorv32_SystemTop_axi4lite #(
     .CLOCK_FREQUENCY                (CLOCK_FREQUENCY        ),      // clock frequency of clk_i in Hz
     .HART_ID                        (HART_ID                ),      // hardware thread ID
     .VENDOR_ID                      (VENDOR_ID              ),      // vendor's JEDEC ID
@@ -381,32 +381,4 @@ module rv_rtds_top(
     .msw_irq_i     (msw_irq_i     ),  // machine software interrupt
     .mext_irq_i    (mext_irq_i    )   // machine external interrupt
   );
-
-  RV_RTDS_wrapper RV_RTDS_wrapper_i
-    (.gpio_i       (gpio_i),
-     .gpio_out     (gpio_out),
-     .neoled_o     (neoled_o),
-     .onewire_o    (onewire_o),
-     .pwm          (pwm),
-     .reset_rtl    (reset_rtl),
-     .sdi_clk_i    (sdi_clk_i),
-     .sdi_csn_i    (sdi_csn_i),
-     .sdi_dat_i    (sdi_dat_i),
-     .sdi_dat_o    (sdi_dat_o),
-     .spi_clk_o    (spi_clk_o),
-     .spi_csn0     (spi_csn0),
-     .spi_dat_i    (spi_dat_i),
-     .spi_dat_o    (spi_dat_o),
-     .sys_clock    (sys_clock),
-     .uart0_cts_i  (uart0_cts_i),
-     .uart0_rts_o  (uart0_rts_o),
-     .uart0_rxd_i  (uart0_rxd_i),
-     .uart0_txd_o  (uart0_txd_o),
-     .uart1_cts_i  (uart1_cts_i),
-     .uart1_rts_o  (uart1_rts_o),
-     .uart1_rxd_i  (uart1_rxd_i),
-     .uart1_txd_o  (uart1_txd_o)
-  );
-
-
-endmodule : rv_rtds_top
+endmodule

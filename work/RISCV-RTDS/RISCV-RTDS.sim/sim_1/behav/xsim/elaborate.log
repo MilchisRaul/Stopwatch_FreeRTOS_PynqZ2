@@ -1,15 +1,13 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/VivadoSuiteStandard/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L neorv32 -L unisims_ver -L unimacro_ver -L secureip --snapshot neorv32_integration_top_behav xil_defaultlib.neorv32_integration_top xil_defaultlib.glbl -log elaborate.log 
+Running: D:/VivadoSuiteStandard/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L neorv32 -L unisims_ver -L unimacro_ver -L secureip --snapshot rv_rtds_top_behav xil_defaultlib.rv_rtds_top xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'spi_csn_o' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:188]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'gpio_o' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/rv_rtds_top.v:199]
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4100] "C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling package std.standard
@@ -50,6 +48,6 @@ Compiling architecture neorv32_sysinfo_rtl of entity neorv32.neorv32_sysinfo [\n
 Compiling architecture neorv32_bus_gateway_rtl of entity neorv32.neorv32_bus_gateway [\neorv32_bus_gateway(timeout=15,...]
 Compiling architecture neorv32_top_rtl of entity neorv32.neorv32_top [\neorv32_top(int_bootloader_en=t...]
 Compiling architecture neorv32_systemtop_axi4lite_rtl of entity xil_defaultlib.neorv32_SystemTop_axi4lite [neorv32_systemtop_axi4lite_defau...]
-Compiling module xil_defaultlib.neorv32_integration_top
+Compiling module xil_defaultlib.rv_rtds_top
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot neorv32_integration_top_behav
+Built simulation snapshot rv_rtds_top_behav

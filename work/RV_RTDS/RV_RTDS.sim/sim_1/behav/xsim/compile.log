@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_package.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-2987] 'neorv32_package' is not compiled in library 'neorv32' [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_package.vhd:1195]
+ERROR: [VRFC 10-2989] 'mem32_t' is not declared [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_package.vhd:1198]
+ERROR: [VRFC 10-9458] unit 'neorv32_bootloader_image' is ignored due to previous errors [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_package.vhd:1197]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/neorv32/rtl/core/neorv32_package.vhd' is ignored due to errors

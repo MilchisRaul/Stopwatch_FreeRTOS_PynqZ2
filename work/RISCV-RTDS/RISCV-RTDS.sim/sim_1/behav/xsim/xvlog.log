@@ -1,6 +1,2 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module neorv32_integration_top
-WARNING: [VRFC 10-8434] closing label :neorv32_integration_top is only allowed in SystemVerilog mode [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:375]
-WARNING: [VRFC 10-8434] closing label :neorv32_integration_top is only allowed in SystemVerilog mode [C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/neorv32_integration_top.v:1]
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/src/top/rv_rtds_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv_rtds_top
