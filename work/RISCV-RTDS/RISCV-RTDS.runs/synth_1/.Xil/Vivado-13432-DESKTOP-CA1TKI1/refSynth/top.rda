@@ -1,115 +1,0 @@
-Data_For_RDAFlowver5.0
-	top levelÚK
-RV_RTDS_wrapperö
-LinkDesign_Blackboxes*
-RV_RTDS_i/clk_wiz_0RV_RTDS_clk_wiz_0_0<
-RV_RTDS_i/rst_clk_wiz_0_100MRV_RTDS_rst_clk_wiz_0_100M_0F
-1RV_RTDS_i/axi_interconnect_0/s00_couplers/auto_pcRV_RTDS_auto_pc_06
-RV_RTDS_i/axi_bram_ctrl_0RV_RTDS_axi_bram_ctrl_0_06
-RV_RTDS_i/axi_bram_ctrl_1RV_RTDS_axi_bram_ctrl_0_1B
-RV_RTDS_i/neorv32_integration_0RV_RTDS_neorv32_integration_0_42
-RV_RTDS_i/blk_mem_gen_0RV_RTDS_blk_mem_gen_0_02
-RV_RTDS_i/blk_mem_gen_1RV_RTDS_blk_mem_gen_0_13
-!RV_RTDS_i/axi_interconnect_0/xbarRV_RTDS_xbar_0∞>
-synthFileNamesW
-10QD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/BRAM_SINGLE_MACRO.vhdT
-11ND:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/BRAM_TDP_MACRO.vhdX
-12RD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/COUNTER_LOAD_MACRO.vhdV
-13PD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/COUNTER_TC_MACRO.vhdV
-14PD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/EQ_COMPARE_MACRO.vhdS
-20MD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/ADDSUB_MACRO.vZ
-15TD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/FIFO_DUALCLOCK_MACRO.vhdU
-21OD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.vU
-16OD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/FIFO_SYNC_MACRO.vhdX
-22RD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.vP
-17JD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/MACC_MACRO.vhdP
-18JD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/MULT_MACRO.vhdU
-23OD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.vT
-19ND:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/ADDMACC_MACRO.vY
-24SD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/COUNTER_LOAD_MACRO.vW
-25QD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/COUNTER_TC_MACRO.vQ
-30KD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/MULT_MACRO.v
-NumFileNames66W
-26QD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/EQ_COMPARE_MACRO.vW
-31QD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unisims/retarget/MULT18X18.vhdJ
-1ED:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_VCOMP.vhd[
-27UD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.vX
-32RD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unisims/retarget/MULT18X18S.vhdI
-2DD:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_VPKG.vhdV
-28PD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/FIFO_SYNC_MACRO.vM
-33GD:/VivadoSuiteStandard/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.svG
-3BD:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.vQ
-29KD:/VivadoSuiteStandard/Vivado/2023.2/data/verilog/src/unimacro/MACC_MACRO.vS
-34MD:/VivadoSuiteStandard/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.svJ
-4ED:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/internal_cells.v≤
-35´C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/.Xil/Vivado-6884-DESKTOP-CA1TKI1/realtime/RV_RTDS_xbar_0_stub.vª
-40¥C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/.Xil/Vivado-6884-DESKTOP-CA1TKI1/realtime/RV_RTDS_blk_mem_gen_0_1_stub.v@
-5;D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/BUFT.vµ
-36ÆC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/.Xil/Vivado-6884-DESKTOP-CA1TKI1/realtime/RV_RTDS_auto_pc_0_stub.v∑
-41∞C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/.Xil/Vivado-6884-DESKTOP-CA1TKI1/realtime/RV_RTDS_clk_wiz_0_0_stub.vS
-6ND:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/unimacro_VCOMP.vhdΩ
-37∂C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/.Xil/Vivado-6884-DESKTOP-CA1TKI1/realtime/RV_RTDS_axi_bram_ctrl_0_0_stub.v¿
-42πC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/.Xil/Vivado-6884-DESKTOP-CA1TKI1/realtime/RV_RTDS_rst_clk_wiz_0_100M_0_stub.vR
-7MD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/ADDMACC_MACRO.vhdΩ
-38∂C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/.Xil/Vivado-6884-DESKTOP-CA1TKI1/realtime/RV_RTDS_axi_bram_ctrl_0_1_stub.v√
-43ºC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/.Xil/Vivado-6884-DESKTOP-CA1TKI1/realtime/RV_RTDS_neorv32_integration_0_4_stub.vQ
-8LD:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/ADDSUB_MACRO.vhdª
-39¥C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/.Xil/Vivado-6884-DESKTOP-CA1TKI1/realtime/RV_RTDS_blk_mem_gen_0_0_stub.ví
-44ãC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.srcs/sources_1/imports/hdl/RV_RTDS_wrapper.v©
-50¢c:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ipshared/d390/hdl/xlconstant_v1_1_vl_rfs.vS
-9ND:/VivadoSuiteStandard/Vivado/2023.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhdé
-45ác:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/synth/RV_RTDS.v∑
-51∞c:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_xlconstant_0_0/synth/RV_RTDS_xlconstant_0_0.v¶
-46üc:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ipshared/217a/hdl/xlslice_v1_0_vl_rfs.vß
-52†c:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ipshared/147b/hdl/xlconcat_v2_1_vl_rfs.v±
-47™c:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_xlslice_0_0/synth/RV_RTDS_xlslice_0_0.v≥
-53¨c:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_xlconcat_0_0/synth/RV_RTDS_xlconcat_0_0.v±
-48™c:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_xlslice_0_1/synth/RV_RTDS_xlslice_0_1.v∑
-54∞c:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_xlconstant_0_1/synth/RV_RTDS_xlconstant_0_1.v±
-49™c:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.gen/sources_1/bd/RV_RTDS/ip/RV_RTDS_xlslice_0_2/synth/RV_RTDS_xlslice_0_2.và
-60ÅC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/timing_p.vhdD
-55>D:/VivadoSuiteStandard/Vivado/2023.2/data/ip/xpm/xpm_VCOMP.vhdà
-61ÅC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/timing_b.vhdà
-56ÅC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/std_1164.vhdà
-62ÅC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/prmtvs_p.vhdà
-57ÅC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/standard.vhdà
-63ÅC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/prmtvs_b.vhdã
-58ÑC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/numeric_std.vhdà
-64ÅC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/syn_arit.vhdÖ
-59C:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/textio.vhdà
-65ÅC:/Users/raulm/Desktop/Facultate/Master/Anul 1/Sem1/SDTR/RISCV-RTDS/work/RISCV-RTDS/RISCV-RTDS.runs/synth_1/1993/src/syn_unsi.vhd
-
-synthStats
-ElaboratedNamesForRQSë
-blackBoxInfo*
-RV_RTDS_i/clk_wiz_0RV_RTDS_clk_wiz_0_0<
-RV_RTDS_i/rst_clk_wiz_0_100MRV_RTDS_rst_clk_wiz_0_100M_0F
-1RV_RTDS_i/axi_interconnect_0/s00_couplers/auto_pcRV_RTDS_auto_pc_06
-RV_RTDS_i/axi_bram_ctrl_0RV_RTDS_axi_bram_ctrl_0_06
-RV_RTDS_i/axi_bram_ctrl_1RV_RTDS_axi_bram_ctrl_0_1B
-RV_RTDS_i/neorv32_integration_0RV_RTDS_neorv32_integration_0_42
-RV_RTDS_i/blk_mem_gen_0RV_RTDS_blk_mem_gen_0_02
-RV_RTDS_i/blk_mem_gen_1RV_RTDS_blk_mem_gen_0_13
-!RV_RTDS_i/axi_interconnect_0/xbarRV_RTDS_xbar_0”
-synth_design
-isIncremental0
-Runtime0
-Threads used2¶
-argsù-define default::[not_specified] -verilog_define default::[not_specified] -vhdl_define default::[not_specified] -top  RV_RTDS_wrapper -part  xc7z020clg400-1 
-resynthPerc0.00
-Cputime0
-blackBoxPercinf
-	directive ù
-synth_design_metrics$
-mismatchedAddSubOperatorWidths-1
-lowMaxFanout-1
-NumUnregisteredPorts0
-caseNotFullNoDefault-1
-	smallSrls-1
-srlsWithResetLogic-1
-shallowRAMWithAttribute-1
-hierMFO0
-bigRAMs-1
-NetsWithMixedFanouts-1
-DSPsWithKeep0
-RQS_Results
