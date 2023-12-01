@@ -4,3 +4,6 @@
 [submodule "kernel/FreeRTOS-Kernel"]
 	path = kernel/FreeRTOS-Kernel
 	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "work/repo/my_dtg/device-tree-xlnx"]
+	path = work/repo/my_dtg/device-tree-xlnx
+	url = https://github.com/Xilinx/device-tree-xlnx
