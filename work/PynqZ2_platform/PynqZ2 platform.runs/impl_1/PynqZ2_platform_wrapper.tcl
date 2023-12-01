@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.runs/impl_1/PynqZ2_platform_wrapper.tcl"
+  variable script "C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.runs/impl_1/PynqZ2_platform_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -126,11 +126,11 @@ set rc [catch {
   set_param chipscope.maxJobs 4
   set_param runs.launchOptions { -jobs 8  }
   open_checkpoint PynqZ2_platform_wrapper_routed.dcp
-  set_property webtalk.parent_dir {C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.cache/wt} [current_project]
+  set_property webtalk.parent_dir {C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.cache/wt} [current_project]
 set_property TOP PynqZ2_platform_wrapper [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
-  set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
+  set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
   catch { write_mem_info -force -no_partial_mmi PynqZ2_platform_wrapper.mmi }
   catch { write_bmm -force PynqZ2_platform_wrapper_bd.bmm }
 OPTRACE "write_bitstream setup" END { }

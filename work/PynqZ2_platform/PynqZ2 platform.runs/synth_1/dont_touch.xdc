@@ -22,10 +22,25 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_plat
 # IP: bd/PynqZ2_platform/ip/PynqZ2_platform_BRAM_bram_0/PynqZ2_platform_BRAM_bram_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_platform_BRAM_bram_0 || ORIG_REF_NAME==PynqZ2_platform_BRAM_bram_0} -quiet] -quiet
 
-# IP: bd/PynqZ2_platform/ip/PynqZ2_platform_axi_smc_0/PynqZ2_platform_axi_smc_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_platform_axi_smc_0 || ORIG_REF_NAME==PynqZ2_platform_axi_smc_0} -quiet] -quiet
-
 # IP: bd/PynqZ2_platform/ip/PynqZ2_platform_rst_ps7_0_100M_0/PynqZ2_platform_rst_ps7_0_100M_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_platform_rst_ps7_0_100M_0 || ORIG_REF_NAME==PynqZ2_platform_rst_ps7_0_100M_0} -quiet] -quiet
 
-# XDC: c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/PynqZ2_platform_ooc.xdc
+# IP: bd/PynqZ2_platform/ip/PynqZ2_platform_xbar_0/PynqZ2_platform_xbar_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_platform_xbar_0 || ORIG_REF_NAME==PynqZ2_platform_xbar_0} -quiet] -quiet
+
+# IP: bd/PynqZ2_platform/ip/PynqZ2_platform_axi_interconnect_0_0/PynqZ2_platform_axi_interconnect_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_platform_axi_interconnect_0_0 || ORIG_REF_NAME==PynqZ2_platform_axi_interconnect_0_0} -quiet] -quiet
+
+# IP: bd/PynqZ2_platform/ip/PynqZ2_platform_auto_pc_3/PynqZ2_platform_auto_pc_3.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_platform_auto_pc_3 || ORIG_REF_NAME==PynqZ2_platform_auto_pc_3} -quiet] -quiet
+
+# IP: bd/PynqZ2_platform/ip/PynqZ2_platform_auto_pc_0/PynqZ2_platform_auto_pc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_platform_auto_pc_0 || ORIG_REF_NAME==PynqZ2_platform_auto_pc_0} -quiet] -quiet
+
+# IP: bd/PynqZ2_platform/ip/PynqZ2_platform_auto_pc_1/PynqZ2_platform_auto_pc_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_platform_auto_pc_1 || ORIG_REF_NAME==PynqZ2_platform_auto_pc_1} -quiet] -quiet
+
+# IP: bd/PynqZ2_platform/ip/PynqZ2_platform_auto_pc_2/PynqZ2_platform_auto_pc_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==PynqZ2_platform_auto_pc_2 || ORIG_REF_NAME==PynqZ2_platform_auto_pc_2} -quiet] -quiet
+
+# XDC: c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/PynqZ2_platform_ooc.xdc

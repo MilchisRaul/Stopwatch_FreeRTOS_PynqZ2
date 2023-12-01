@@ -2,7 +2,7 @@
 //Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-//Date        : Fri Dec  1 12:48:28 2023
+//Date        : Fri Dec  1 18:13:24 2023
 //Host        : DESKTOP-CA1TKI1 running 64-bit major release  (build 9200)
 //Command     : generate_target PynqZ2_platform_wrapper.bd
 //Design      : PynqZ2_platform_wrapper

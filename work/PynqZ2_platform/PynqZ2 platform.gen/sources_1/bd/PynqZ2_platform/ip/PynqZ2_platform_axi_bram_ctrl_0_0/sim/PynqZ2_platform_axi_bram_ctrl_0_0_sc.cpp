@@ -65,7 +65,7 @@ PynqZ2_platform_axi_bram_ctrl_0_0_sc::PynqZ2_platform_axi_bram_ctrl_0_0_sc(const
     model_param_props.addLong("C_BRAM_ADDR_WIDTH", "11");
     model_param_props.addLong("C_S_AXI_ADDR_WIDTH", "13");
     model_param_props.addLong("C_S_AXI_DATA_WIDTH", "32");
-    model_param_props.addLong("C_S_AXI_ID_WIDTH", "1");
+    model_param_props.addLong("C_S_AXI_ID_WIDTH", "12");
     model_param_props.addLong("C_S_AXI_SUPPORTS_NARROW_BURST", "0");
     model_param_props.addLong("C_SINGLE_PORT_BRAM", "0");
     model_param_props.addLong("C_READ_LATENCY", "1");

@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="65" Path="C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.xpr">
+<Project Product="Vivado" Version="7" Minor="65" Path="C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="670228a1dead414eac48b356e8bc5963"/>
@@ -100,6 +100,18 @@
         <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_BRAM_bram_0/PynqZ2_platform_BRAM_bram_0.xci">
           <Proxy FileSetName="PynqZ2_platform_BRAM_bram_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_auto_pc_0/PynqZ2_platform_auto_pc_0.xci">
+          <Proxy FileSetName="PynqZ2_platform_auto_pc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_auto_pc_1/PynqZ2_platform_auto_pc_1.xci">
+          <Proxy FileSetName="PynqZ2_platform_auto_pc_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_auto_pc_2/PynqZ2_platform_auto_pc_2.xci">
+          <Proxy FileSetName="PynqZ2_platform_auto_pc_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_auto_pc_3/PynqZ2_platform_auto_pc_3.xci">
+          <Proxy FileSetName="PynqZ2_platform_auto_pc_3"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_axi_bram_ctrl_0_0/PynqZ2_platform_axi_bram_ctrl_0_0.xci">
           <Proxy FileSetName="PynqZ2_platform_axi_bram_ctrl_0_0"/>
         </CompFileExtendedInfo>
@@ -112,14 +124,14 @@
         <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_axi_gpio_0_2/PynqZ2_platform_axi_gpio_0_2.xci">
           <Proxy FileSetName="PynqZ2_platform_axi_gpio_0_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_axi_smc_0/PynqZ2_platform_axi_smc_0.xci">
-          <Proxy FileSetName="PynqZ2_platform_axi_smc_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_processing_system7_0_0/PynqZ2_platform_processing_system7_0_0.xci">
           <Proxy FileSetName="PynqZ2_platform_processing_system7_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_rst_ps7_0_100M_0/PynqZ2_platform_rst_ps7_0_100M_0.xci">
           <Proxy FileSetName="PynqZ2_platform_rst_ps7_0_100M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="PynqZ2_platform.bd" FileRelPathName="ip/PynqZ2_platform_xbar_0/PynqZ2_platform_xbar_0.xci">
+          <Proxy FileSetName="PynqZ2_platform_xbar_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/PynqZ2_platform/hdl/PynqZ2_platform_wrapper.v">
@@ -142,6 +154,7 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="PynqZ2_platform_wrapper"/>
@@ -159,6 +172,14 @@
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
       <Filter Type="Utils"/>
+      <File Path="$PSRCDIR/utils_1/imports/synth_1/PynqZ2_platform_wrapper.dcp">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedInSteps" Val="synth_1"/>
+          <Attr Name="AutoDcp" Val="1"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
@@ -178,12 +199,6 @@
     <FileSet Name="PynqZ2_platform_axi_bram_ctrl_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PynqZ2_platform_axi_bram_ctrl_0_0" RelGenDir="$PGENDIR/PynqZ2_platform_axi_bram_ctrl_0_0">
       <Config>
         <Option Name="TopModule" Val="PynqZ2_platform_axi_bram_ctrl_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="PynqZ2_platform_axi_smc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PynqZ2_platform_axi_smc_0" RelGenDir="$PGENDIR/PynqZ2_platform_axi_smc_0">
-      <Config>
-        <Option Name="TopModule" Val="PynqZ2_platform_axi_smc_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -211,6 +226,36 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
+    <FileSet Name="PynqZ2_platform_auto_pc_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PynqZ2_platform_auto_pc_1" RelGenDir="$PGENDIR/PynqZ2_platform_auto_pc_1">
+      <Config>
+        <Option Name="TopModule" Val="PynqZ2_platform_auto_pc_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="PynqZ2_platform_auto_pc_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PynqZ2_platform_auto_pc_2" RelGenDir="$PGENDIR/PynqZ2_platform_auto_pc_2">
+      <Config>
+        <Option Name="TopModule" Val="PynqZ2_platform_auto_pc_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="PynqZ2_platform_xbar_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PynqZ2_platform_xbar_0" RelGenDir="$PGENDIR/PynqZ2_platform_xbar_0">
+      <Config>
+        <Option Name="TopModule" Val="PynqZ2_platform_xbar_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="PynqZ2_platform_auto_pc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PynqZ2_platform_auto_pc_0" RelGenDir="$PGENDIR/PynqZ2_platform_auto_pc_0">
+      <Config>
+        <Option Name="TopModule" Val="PynqZ2_platform_auto_pc_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="PynqZ2_platform_auto_pc_3" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PynqZ2_platform_auto_pc_3" RelGenDir="$PGENDIR/PynqZ2_platform_auto_pc_3">
+      <Config>
+        <Option Name="TopModule" Val="PynqZ2_platform_auto_pc_3"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
   </FileSets>
   <Simulators>
     <Simulator Name="XSim">
@@ -231,11 +276,9 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="21">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" IncrementalCheckpoint="$PSRCDIR/utils_1/imports/synth_1/PynqZ2_platform_wrapper.dcp" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -245,9 +288,7 @@
     </Run>
     <Run Id="PynqZ2_platform_BRAM_bram_0_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_BRAM_bram_0" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_BRAM_bram_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_BRAM_bram_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_BRAM_bram_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_BRAM_bram_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -257,9 +298,7 @@
     </Run>
     <Run Id="PynqZ2_platform_axi_gpio_0_2_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_axi_gpio_0_2" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_gpio_0_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_axi_gpio_0_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_2_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -269,21 +308,7 @@
     </Run>
     <Run Id="PynqZ2_platform_axi_bram_ctrl_0_0_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_axi_bram_ctrl_0_0" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_bram_ctrl_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="PynqZ2_platform_axi_smc_0_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_axi_smc_0" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_smc_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_axi_smc_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_smc_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_smc_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -293,9 +318,7 @@
     </Run>
     <Run Id="PynqZ2_platform_rst_ps7_0_100M_0_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_rst_ps7_0_100M_0" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_rst_ps7_0_100M_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_rst_ps7_0_100M_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_rst_ps7_0_100M_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_rst_ps7_0_100M_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -305,9 +328,7 @@
     </Run>
     <Run Id="PynqZ2_platform_axi_gpio_0_0_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_axi_gpio_0_0" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_gpio_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_axi_gpio_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -316,6 +337,26 @@
       <RQSFiles/>
     </Run>
     <Run Id="PynqZ2_platform_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_processing_system7_0_0" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_processing_system7_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_processing_system7_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_processing_system7_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_processing_system7_0_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_axi_gpio_0_1_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_axi_gpio_0_1" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_gpio_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_axi_gpio_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_1_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_auto_pc_1_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_auto_pc_1" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_auto_pc_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_auto_pc_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_1_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
           <Desc>Vivado Synthesis Defaults</Desc>
@@ -327,7 +368,43 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="PynqZ2_platform_axi_gpio_0_1_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_axi_gpio_0_1" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_gpio_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_axi_gpio_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_1_synth_1">
+    <Run Id="PynqZ2_platform_auto_pc_2_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_auto_pc_2" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_auto_pc_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_auto_pc_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_xbar_0" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_xbar_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_xbar_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_xbar_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_xbar_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_auto_pc_0_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_auto_pc_0" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_auto_pc_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_auto_pc_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_auto_pc_3_synth_1" Type="Ft3:Synth" SrcSet="PynqZ2_platform_auto_pc_3" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_auto_pc_3" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/PynqZ2_platform_auto_pc_3_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_3_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_3_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
           <Desc>Vivado Synthesis Defaults</Desc>
@@ -341,9 +418,7 @@
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" LaunchOptions="-jobs 8 " AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -361,9 +436,7 @@
     </Run>
     <Run Id="PynqZ2_platform_BRAM_bram_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_BRAM_bram_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_BRAM_bram_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_BRAM_bram_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_BRAM_bram_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -380,9 +453,7 @@
     </Run>
     <Run Id="PynqZ2_platform_axi_gpio_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_gpio_0_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_axi_gpio_0_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_2_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -399,28 +470,7 @@
     </Run>
     <Run Id="PynqZ2_platform_axi_bram_ctrl_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_bram_ctrl_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_axi_bram_ctrl_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_bram_ctrl_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_bram_ctrl_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="PynqZ2_platform_axi_smc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_smc_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_axi_smc_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_smc_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_smc_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -437,9 +487,7 @@
     </Run>
     <Run Id="PynqZ2_platform_rst_ps7_0_100M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_rst_ps7_0_100M_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_rst_ps7_0_100M_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_rst_ps7_0_100M_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_rst_ps7_0_100M_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -456,9 +504,7 @@
     </Run>
     <Run Id="PynqZ2_platform_axi_gpio_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_gpio_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_axi_gpio_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -474,6 +520,40 @@
       <RQSFiles/>
     </Run>
     <Run Id="PynqZ2_platform_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_processing_system7_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_processing_system7_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_processing_system7_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_processing_system7_0_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_axi_gpio_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_gpio_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_axi_gpio_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_1_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_auto_pc_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_auto_pc_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_auto_pc_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_1_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
           <Desc>Default settings for Implementation.</Desc>
@@ -492,7 +572,64 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="PynqZ2_platform_axi_gpio_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_axi_gpio_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_axi_gpio_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_axi_gpio_0_1_impl_1">
+    <Run Id="PynqZ2_platform_auto_pc_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_auto_pc_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_auto_pc_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_2_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_xbar_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_xbar_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_xbar_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_xbar_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_auto_pc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_auto_pc_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_auto_pc_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="PynqZ2_platform_auto_pc_3_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="PynqZ2_platform_auto_pc_3" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="PynqZ2_platform_auto_pc_3_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_3_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/PynqZ2_platform_auto_pc_3_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
           <Desc>Default settings for Implementation.</Desc>

@@ -16,7 +16,7 @@ CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - D:/VivadoSuiteS
 Resolution: Check that the file is valid using an XML validation tool such as xmllint.
 CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - D:/VivadoSuiteStandard/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/pynq-z2/1.0/board.xml
 Resolution: Check that the file is valid using an XML validation tool such as xmllint.
-create_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 811.176 ; gain = 426.980
+create_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 804.828 ; gain = 421.129
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: PynqZ2_platform_axi_bram_ctrl_0_0
 Command: synth_design -top PynqZ2_platform_axi_bram_ctrl_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
 Starting synth_design
@@ -25,17 +25,17 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 17904
+INFO: [Synth 8-7075] Helper process launched with PID 23632
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1662.461 ; gain = 434.664
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1662.008 ; gain = 438.008
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'PynqZ2_platform_axi_bram_ctrl_0_0' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/synth/PynqZ2_platform_axi_bram_ctrl_0_0.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'PynqZ2_platform_axi_bram_ctrl_0_0' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/synth/PynqZ2_platform_axi_bram_ctrl_0_0.vhd:115]
 	Parameter C_BRAM_INST_MODE bound to: EXTERNAL - type: string 
 	Parameter C_MEMORY_DEPTH bound to: 2048 - type: integer 
 	Parameter C_BRAM_ADDR_WIDTH bound to: 11 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 13 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
-	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_S_AXI_PROTOCOL bound to: AXI4 - type: string 
 	Parameter C_S_AXI_SUPPORTS_NARROW_BURST bound to: 0 - type: integer 
 	Parameter C_SINGLE_PORT_BRAM bound to: 0 - type: integer 
@@ -48,55 +48,66 @@ INFO: [Synth 8-638] synthesizing module 'PynqZ2_platform_axi_bram_ctrl_0_0' [c:/
 	Parameter C_ECC_TYPE bound to: 0 - type: integer 
 	Parameter C_FAULT_INJECT bound to: 0 - type: integer 
 	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'axi_bram_ctrl' declared at 'c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31263' bound to instance 'U0' of component 'axi_bram_ctrl' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/synth/PynqZ2_platform_axi_bram_ctrl_0_0.vhd:270]
-INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31434]
-INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_top' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:30438]
-INFO: [Synth 8-638] synthesizing module 'full_axi' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29196]
-WARNING: [Synth 8-6774] Null subtype or type declaration found [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29266]
-INFO: [Synth 8-3919] null assignment ignored [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29266]
-INFO: [Synth 8-638] synthesizing module 'wr_chnl' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24080]
-INFO: [Synth 8-506] null port 'FaultInjectECC' ignored [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24047]
-INFO: [Synth 8-638] synthesizing module 'wrap_brst' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12386]
-INFO: [Synth 8-256] done synthesizing module 'wrap_brst' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12386]
-INFO: [Synth 8-226] default block is never used [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25753]
-INFO: [Synth 8-638] synthesizing module 'SRL_FIFO' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:91]
-INFO: [Synth 8-3491] module 'FDR' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'Data_Exists_DFF' of component 'FDR' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:188]
+INFO: [Synth 8-3491] module 'axi_bram_ctrl' declared at 'c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31263' bound to instance 'U0' of component 'axi_bram_ctrl' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/synth/PynqZ2_platform_axi_bram_ctrl_0_0.vhd:278]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31434]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_top' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:30438]
+INFO: [Synth 8-638] synthesizing module 'full_axi' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29196]
+WARNING: [Synth 8-6774] Null subtype or type declaration found [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29266]
+INFO: [Synth 8-3919] null assignment ignored [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29266]
+INFO: [Synth 8-638] synthesizing module 'wr_chnl' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24080]
+INFO: [Synth 8-506] null port 'FaultInjectECC' ignored [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24047]
+INFO: [Synth 8-638] synthesizing module 'wrap_brst' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12386]
+INFO: [Synth 8-256] done synthesizing module 'wrap_brst' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12386]
+INFO: [Synth 8-226] default block is never used [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25753]
+INFO: [Synth 8-638] synthesizing module 'SRL_FIFO' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:91]
+INFO: [Synth 8-3491] module 'FDR' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'Data_Exists_DFF' of component 'FDR' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:188]
 INFO: [Synth 8-6157] synthesizing module 'FDR' [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992]
 INFO: [Synth 8-6155] done synthesizing module 'FDR' (0#1) [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
 INFO: [Synth 8-6157] synthesizing module 'MUXCY_L' [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152]
 INFO: [Synth 8-6155] done synthesizing module 'MUXCY_L' (0#1) [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_I' of component 'XORCY' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_I' of component 'XORCY' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
 INFO: [Synth 8-6157] synthesizing module 'XORCY' [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093]
 INFO: [Synth 8-6155] done synthesizing module 'XORCY' (0#1) [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_I' of component 'FDRE' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_I' of component 'FDRE' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
 INFO: [Synth 8-6157] synthesizing module 'FDRE' [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
 INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_I' of component 'XORCY' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_I' of component 'FDRE' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_I' of component 'XORCY' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_I' of component 'FDRE' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_I' of component 'XORCY' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_I' of component 'FDRE' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_I' of component 'XORCY' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_I' of component 'FDRE' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_I' of component 'XORCY' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_I' of component 'FDRE' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85152' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_I' of component 'XORCY' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_I' of component 'FDRE' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
 INFO: [Synth 8-6157] synthesizing module 'SRL16E' [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737]
 INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737]
-INFO: [Synth 8-256] done synthesizing module 'SRL_FIFO' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:91]
-INFO: [Synth 8-256] done synthesizing module 'wr_chnl' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24080]
-WARNING: [Synth 8-6778] Component port with null array found, Will be ignored [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29936]
-INFO: [Synth 8-638] synthesizing module 'rd_chnl' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:14672]
-INFO: [Synth 8-256] done synthesizing module 'rd_chnl' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:14672]
-INFO: [Synth 8-256] done synthesizing module 'full_axi' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29196]
-INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl_top' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:30438]
-INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31434]
-INFO: [Synth 8-256] done synthesizing module 'PynqZ2_platform_axi_bram_ctrl_0_0' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/synth/PynqZ2_platform_axi_bram_ctrl_0_0.vhd:111]
-WARNING: [Synth 8-6014] Unused sequential element curr_awsize_reg_reg was removed.  [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25239]
-WARNING: [Synth 8-6014] Unused sequential element aw_active_d1_reg was removed.  [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25664]
-WARNING: [Synth 8-6014] Unused sequential element GEN_NO_RD_CMD_OPT.curr_arsize_reg_reg was removed.  [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15924]
-WARNING: [Synth 8-6014] Unused sequential element GEN_NO_RD_CMD_OPT.do_cmplt_burst_reg was removed.  [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:21170]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'D:/VivadoSuiteStandard/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133737' bound to instance 'SRL16E_I' of component 'SRL16E' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-256] done synthesizing module 'SRL_FIFO' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:91]
+INFO: [Synth 8-256] done synthesizing module 'wr_chnl' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24080]
+WARNING: [Synth 8-6778] Component port with null array found, Will be ignored [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29936]
+INFO: [Synth 8-638] synthesizing module 'rd_chnl' [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:14672]
+INFO: [Synth 8-256] done synthesizing module 'rd_chnl' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:14672]
+INFO: [Synth 8-256] done synthesizing module 'full_axi' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29196]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl_top' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:30438]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31434]
+INFO: [Synth 8-256] done synthesizing module 'PynqZ2_platform_axi_bram_ctrl_0_0' (0#1) [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/synth/PynqZ2_platform_axi_bram_ctrl_0_0.vhd:115]
+WARNING: [Synth 8-6014] Unused sequential element curr_awsize_reg_reg was removed.  [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25239]
+WARNING: [Synth 8-6014] Unused sequential element aw_active_d1_reg was removed.  [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25664]
+WARNING: [Synth 8-6014] Unused sequential element GEN_NO_RD_CMD_OPT.curr_arsize_reg_reg was removed.  [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15924]
+WARNING: [Synth 8-6014] Unused sequential element GEN_NO_RD_CMD_OPT.do_cmplt_burst_reg was removed.  [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ipshared/5ed7/hdl/axi_bram_ctrl_v4_1_rfs.vhd:21170]
 WARNING: [Synth 8-7129] Port curr_axlen[7] in module wrap_brst is either unconnected or has no load
 WARNING: [Synth 8-7129] Port curr_axlen[6] in module wrap_brst is either unconnected or has no load
 WARNING: [Synth 8-7129] Port curr_axlen[5] in module wrap_brst is either unconnected or has no load
@@ -199,55 +210,55 @@ WARNING: [Synth 8-7129] Port BRAM_RdData[20] in module wr_chnl is either unconne
 WARNING: [Synth 8-7129] Port BRAM_RdData[19] in module wr_chnl is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1799.945 ; gain = 572.148
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1797.988 ; gain = 573.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1799.945 ; gain = 572.148
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1797.988 ; gain = 573.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1799.945 ; gain = 572.148
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1797.988 ; gain = 573.988
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 1799.945 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1797.988 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/PynqZ2_platform_axi_bram_ctrl_0_0_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/PynqZ2_platform_axi_bram_ctrl_0_0_ooc.xdc] for cell 'U0'
-Parsing XDC File [C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/PynqZ2_platform_axi_bram_ctrl_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.gen/sources_1/bd/PynqZ2_platform/ip/PynqZ2_platform_axi_bram_ctrl_0_0/PynqZ2_platform_axi_bram_ctrl_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1891.504 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1894.008 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 5 instances were transformed.
   FDR => FDRE: 1 instance 
   MUXCY_L => MUXCY: 4 instances
 
 The system cannot find the path specified.
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1891.504 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1894.008 ; gain = 0.000
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  {C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/dont_touch.xdc}, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  {C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/dont_touch.xdc}, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'GEN_WDATA_SM_NO_ECC_DUAL_REG_WREADY.wr_data_sm_cs_reg' in module 'wr_chnl'
 INFO: [Synth 8-802] inferred FSM for state register 'GEN_NO_RD_CMD_OPT.GEN_AR_DUAL.rd_addr_sm_cs_reg' in module 'rd_chnl'
@@ -295,7 +306,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'GEN_NO_RD_CMD_OPT.rlast_sm
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'GEN_NO_RD_CMD_OPT.rd_data_sm_cs_reg' using encoding 'sequential' in module 'rd_chnl'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -309,15 +320,17 @@ Detailed RTL Component Info :
 	   2 Input      1 Bit         XORs := 4     
 +---Registers : 
 	               32 Bit    Registers := 1     
+	               12 Bit    Registers := 6     
 	               11 Bit    Registers := 2     
 	               10 Bit    Registers := 2     
 	                8 Bit    Registers := 3     
 	                4 Bit    Registers := 1     
 	                3 Bit    Registers := 5     
 	                2 Bit    Registers := 4     
-	                1 Bit    Registers := 156   
+	                1 Bit    Registers := 150   
 +---Muxes : 
 	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 4     
 	   5 Input   11 Bit        Muxes := 2     
 	   2 Input   11 Bit        Muxes := 8     
 	   2 Input   10 Bit        Muxes := 1     
@@ -330,7 +343,7 @@ Detailed RTL Component Info :
 	   4 Input    2 Bit        Muxes := 2     
 	   3 Input    2 Bit        Muxes := 2     
 	   2 Input    2 Bit        Muxes := 2     
-	   2 Input    1 Bit        Muxes := 85    
+	   2 Input    1 Bit        Muxes := 81    
 	   5 Input    1 Bit        Muxes := 15    
 	   3 Input    1 Bit        Muxes := 1     
 	   9 Input    1 Bit        Muxes := 24    
@@ -350,31 +363,26 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Data_Exists_DFF) is unused and will be removed from module axi_bram_ctrl.
-INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[0].FDRE_I) is unused and will be removed from module axi_bram_ctrl.
-INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[1].FDRE_I) is unused and will be removed from module axi_bram_ctrl.
-INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[2].FDRE_I) is unused and will be removed from module axi_bram_ctrl.
-INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[3].FDRE_I) is unused and will be removed from module axi_bram_ctrl.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -392,37 +400,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -435,42 +443,51 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+-----+------+
-|      |Cell |Count |
-+------+-----+------+
-|1     |LUT1 |     3|
-|2     |LUT2 |    27|
-|3     |LUT3 |    76|
-|4     |LUT4 |    44|
-|5     |LUT5 |    63|
-|6     |LUT6 |   139|
-|7     |FDRE |   266|
-+------+-----+------+
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |     2|
+|2     |LUT2    |    25|
+|3     |LUT3    |    98|
+|4     |LUT4    |    52|
+|5     |LUT5    |    64|
+|6     |LUT6    |   176|
+|7     |MUXCY_L |     3|
+|8     |MUXF7   |     2|
+|9     |SRL16E  |    12|
+|10    |XORCY   |     4|
+|11    |FDR     |     1|
+|12    |FDRE    |   346|
++------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1894.008 ; gain = 670.008
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 156 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:01:03 . Memory (MB): peak = 1891.504 ; gain = 572.148
-Synthesis Optimization Complete : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1891.504 ; gain = 663.707
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:50 . Memory (MB): peak = 1894.008 ; gain = 573.988
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1894.008 ; gain = 670.008
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1891.504 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1894.008 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1891.504 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1894.008 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 2 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 1 instance 
+  FDR => FDRE: 1 instance 
 
 The system cannot find the path specified.
-Synth Design complete | Checksum: c2fc4642
+Synth Design complete | Checksum: 6a651536
 INFO: [Common 17-83] Releasing license: Synthesis
-74 Infos, 107 Warnings, 2 Critical Warnings and 0 Errors encountered.
+82 Infos, 107 Warnings, 2 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:12 ; elapsed = 00:01:24 . Memory (MB): peak = 1891.504 ; gain = 1064.121
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1891.504 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/PynqZ2_platform_axi_bram_ctrl_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP PynqZ2_platform_axi_bram_ctrl_0_0, cache-ID = e9c62827389de4ee
-INFO: [Coretcl 2-1174] Renamed 7 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1891.504 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/PynqZ2_platform_axi_bram_ctrl_0_0.dcp' has been generated.
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 1894.008 ; gain = 1073.090
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1894.008 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/PynqZ2_platform_axi_bram_ctrl_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP PynqZ2_platform_axi_bram_ctrl_0_0, cache-ID = 48f7f082cbd795c4
+INFO: [Coretcl 2-1174] Renamed 8 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1894.008 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2_platform/PynqZ2 platform.runs/PynqZ2_platform_axi_bram_ctrl_0_0_synth_1/PynqZ2_platform_axi_bram_ctrl_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file PynqZ2_platform_axi_bram_ctrl_0_0_utilization_synth.rpt -pb PynqZ2_platform_axi_bram_ctrl_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Dec  1 12:51:24 2023...
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  1 18:15:04 2023...

@@ -61,7 +61,7 @@
 
 
 #ifdef XILINX_SIMULATOR
-PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm), s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
+PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm), s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awid("s_axi_awid"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bid("s_axi_bid"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_arid("s_axi_arid"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rid("s_axi_rid"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
 {
 
   // initialize pins
@@ -101,7 +101,7 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
     xsc::common_cpp::properties S_AXI_transactor_param_props;
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
-    S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
+    S_AXI_transactor_param_props.addLong("ID_WIDTH", "12");
     S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
@@ -132,13 +132,14 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "PynqZ2_platform_processing_system7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,12,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
 
     // S_AXI' transactor ports
 
     mp_S_AXI_transactor->ARADDR(s_axi_araddr);
     mp_S_AXI_transactor->ARBURST(s_axi_arburst);
     mp_S_AXI_transactor->ARCACHE(s_axi_arcache);
+    mp_S_AXI_transactor->ARID(s_axi_arid);
     mp_S_AXI_transactor->ARLEN(s_axi_arlen);
     mp_S_AXI_transactor->ARLOCK(s_axi_arlock);
     mp_S_AXI_transactor->ARPROT(s_axi_arprot);
@@ -148,16 +149,19 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
     mp_S_AXI_transactor->AWADDR(s_axi_awaddr);
     mp_S_AXI_transactor->AWBURST(s_axi_awburst);
     mp_S_AXI_transactor->AWCACHE(s_axi_awcache);
+    mp_S_AXI_transactor->AWID(s_axi_awid);
     mp_S_AXI_transactor->AWLEN(s_axi_awlen);
     mp_S_AXI_transactor->AWLOCK(s_axi_awlock);
     mp_S_AXI_transactor->AWPROT(s_axi_awprot);
     mp_S_AXI_transactor->AWREADY(s_axi_awready);
     mp_S_AXI_transactor->AWSIZE(s_axi_awsize);
     mp_S_AXI_transactor->AWVALID(s_axi_awvalid);
+    mp_S_AXI_transactor->BID(s_axi_bid);
     mp_S_AXI_transactor->BREADY(s_axi_bready);
     mp_S_AXI_transactor->BRESP(s_axi_bresp);
     mp_S_AXI_transactor->BVALID(s_axi_bvalid);
     mp_S_AXI_transactor->RDATA(s_axi_rdata);
+    mp_S_AXI_transactor->RID(s_axi_rid);
     mp_S_AXI_transactor->RLAST(s_axi_rlast);
     mp_S_AXI_transactor->RREADY(s_axi_rready);
     mp_S_AXI_transactor->RRESP(s_axi_rresp);
@@ -187,7 +191,7 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
 
 
 #ifdef XM_SYSTEMC
-PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm), s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
+PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm), s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awid("s_axi_awid"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bid("s_axi_bid"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_arid("s_axi_arid"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rid("s_axi_rid"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
 {
 
   // initialize pins
@@ -227,7 +231,7 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
     xsc::common_cpp::properties S_AXI_transactor_param_props;
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
-    S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
+    S_AXI_transactor_param_props.addLong("ID_WIDTH", "12");
     S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
@@ -258,13 +262,14 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "PynqZ2_platform_processing_system7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,12,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
 
     // S_AXI' transactor ports
 
     mp_S_AXI_transactor->ARADDR(s_axi_araddr);
     mp_S_AXI_transactor->ARBURST(s_axi_arburst);
     mp_S_AXI_transactor->ARCACHE(s_axi_arcache);
+    mp_S_AXI_transactor->ARID(s_axi_arid);
     mp_S_AXI_transactor->ARLEN(s_axi_arlen);
     mp_S_AXI_transactor->ARLOCK(s_axi_arlock);
     mp_S_AXI_transactor->ARPROT(s_axi_arprot);
@@ -274,16 +279,19 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
     mp_S_AXI_transactor->AWADDR(s_axi_awaddr);
     mp_S_AXI_transactor->AWBURST(s_axi_awburst);
     mp_S_AXI_transactor->AWCACHE(s_axi_awcache);
+    mp_S_AXI_transactor->AWID(s_axi_awid);
     mp_S_AXI_transactor->AWLEN(s_axi_awlen);
     mp_S_AXI_transactor->AWLOCK(s_axi_awlock);
     mp_S_AXI_transactor->AWPROT(s_axi_awprot);
     mp_S_AXI_transactor->AWREADY(s_axi_awready);
     mp_S_AXI_transactor->AWSIZE(s_axi_awsize);
     mp_S_AXI_transactor->AWVALID(s_axi_awvalid);
+    mp_S_AXI_transactor->BID(s_axi_bid);
     mp_S_AXI_transactor->BREADY(s_axi_bready);
     mp_S_AXI_transactor->BRESP(s_axi_bresp);
     mp_S_AXI_transactor->BVALID(s_axi_bvalid);
     mp_S_AXI_transactor->RDATA(s_axi_rdata);
+    mp_S_AXI_transactor->RID(s_axi_rid);
     mp_S_AXI_transactor->RLAST(s_axi_rlast);
     mp_S_AXI_transactor->RREADY(s_axi_rready);
     mp_S_AXI_transactor->RRESP(s_axi_rresp);
@@ -313,7 +321,7 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
 
 
 #ifdef RIVIERA
-PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm), s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
+PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm), s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awid("s_axi_awid"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bid("s_axi_bid"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_arid("s_axi_arid"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rid("s_axi_rid"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
 {
 
   // initialize pins
@@ -353,7 +361,7 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
     xsc::common_cpp::properties S_AXI_transactor_param_props;
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
-    S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
+    S_AXI_transactor_param_props.addLong("ID_WIDTH", "12");
     S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
@@ -384,13 +392,14 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "PynqZ2_platform_processing_system7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,12,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
 
     // S_AXI' transactor ports
 
     mp_S_AXI_transactor->ARADDR(s_axi_araddr);
     mp_S_AXI_transactor->ARBURST(s_axi_arburst);
     mp_S_AXI_transactor->ARCACHE(s_axi_arcache);
+    mp_S_AXI_transactor->ARID(s_axi_arid);
     mp_S_AXI_transactor->ARLEN(s_axi_arlen);
     mp_S_AXI_transactor->ARLOCK(s_axi_arlock);
     mp_S_AXI_transactor->ARPROT(s_axi_arprot);
@@ -400,16 +409,19 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
     mp_S_AXI_transactor->AWADDR(s_axi_awaddr);
     mp_S_AXI_transactor->AWBURST(s_axi_awburst);
     mp_S_AXI_transactor->AWCACHE(s_axi_awcache);
+    mp_S_AXI_transactor->AWID(s_axi_awid);
     mp_S_AXI_transactor->AWLEN(s_axi_awlen);
     mp_S_AXI_transactor->AWLOCK(s_axi_awlock);
     mp_S_AXI_transactor->AWPROT(s_axi_awprot);
     mp_S_AXI_transactor->AWREADY(s_axi_awready);
     mp_S_AXI_transactor->AWSIZE(s_axi_awsize);
     mp_S_AXI_transactor->AWVALID(s_axi_awvalid);
+    mp_S_AXI_transactor->BID(s_axi_bid);
     mp_S_AXI_transactor->BREADY(s_axi_bready);
     mp_S_AXI_transactor->BRESP(s_axi_bresp);
     mp_S_AXI_transactor->BVALID(s_axi_bvalid);
     mp_S_AXI_transactor->RDATA(s_axi_rdata);
+    mp_S_AXI_transactor->RID(s_axi_rid);
     mp_S_AXI_transactor->RLAST(s_axi_rlast);
     mp_S_AXI_transactor->RREADY(s_axi_rready);
     mp_S_AXI_transactor->RRESP(s_axi_rresp);
@@ -439,7 +451,7 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
 
 
 #ifdef VCSSYSTEMC
-PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm),  s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
+PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm),  s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awid("s_axi_awid"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bid("s_axi_bid"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_arid("s_axi_arid"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rid("s_axi_rid"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
 {
   // initialize pins
   mp_impl->s_axi_aclk(s_axi_aclk);
@@ -468,7 +480,7 @@ PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_co
     xsc::common_cpp::properties S_AXI_transactor_param_props;
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
-    S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
+    S_AXI_transactor_param_props.addLong("ID_WIDTH", "12");
     S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
@@ -499,10 +511,11 @@ PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_co
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "PynqZ2_platform_processing_system7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,12,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
   mp_S_AXI_transactor->ARADDR(s_axi_araddr);
   mp_S_AXI_transactor->ARBURST(s_axi_arburst);
   mp_S_AXI_transactor->ARCACHE(s_axi_arcache);
+  mp_S_AXI_transactor->ARID(s_axi_arid);
   mp_S_AXI_transactor->ARLEN(s_axi_arlen);
   mp_S_AXI_transactor->ARLOCK(s_axi_arlock);
   mp_S_AXI_transactor->ARPROT(s_axi_arprot);
@@ -512,16 +525,19 @@ PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_co
   mp_S_AXI_transactor->AWADDR(s_axi_awaddr);
   mp_S_AXI_transactor->AWBURST(s_axi_awburst);
   mp_S_AXI_transactor->AWCACHE(s_axi_awcache);
+  mp_S_AXI_transactor->AWID(s_axi_awid);
   mp_S_AXI_transactor->AWLEN(s_axi_awlen);
   mp_S_AXI_transactor->AWLOCK(s_axi_awlock);
   mp_S_AXI_transactor->AWPROT(s_axi_awprot);
   mp_S_AXI_transactor->AWREADY(s_axi_awready);
   mp_S_AXI_transactor->AWSIZE(s_axi_awsize);
   mp_S_AXI_transactor->AWVALID(s_axi_awvalid);
+  mp_S_AXI_transactor->BID(s_axi_bid);
   mp_S_AXI_transactor->BREADY(s_axi_bready);
   mp_S_AXI_transactor->BRESP(s_axi_bresp);
   mp_S_AXI_transactor->BVALID(s_axi_bvalid);
   mp_S_AXI_transactor->RDATA(s_axi_rdata);
+  mp_S_AXI_transactor->RID(s_axi_rid);
   mp_S_AXI_transactor->RLAST(s_axi_rlast);
   mp_S_AXI_transactor->RREADY(s_axi_rready);
   mp_S_AXI_transactor->RRESP(s_axi_rresp);
@@ -566,7 +582,7 @@ void PynqZ2_platform_axi_bram_ctrl_0_0::before_end_of_elaboration()
 
 
 #ifdef MTI_SYSTEMC
-PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm),  s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
+PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_core::sc_module_name& nm) : PynqZ2_platform_axi_bram_ctrl_0_0_sc(nm),  s_axi_aclk("s_axi_aclk"), s_axi_aresetn("s_axi_aresetn"), s_axi_awid("s_axi_awid"), s_axi_awaddr("s_axi_awaddr"), s_axi_awlen("s_axi_awlen"), s_axi_awsize("s_axi_awsize"), s_axi_awburst("s_axi_awburst"), s_axi_awlock("s_axi_awlock"), s_axi_awcache("s_axi_awcache"), s_axi_awprot("s_axi_awprot"), s_axi_awvalid("s_axi_awvalid"), s_axi_awready("s_axi_awready"), s_axi_wdata("s_axi_wdata"), s_axi_wstrb("s_axi_wstrb"), s_axi_wlast("s_axi_wlast"), s_axi_wvalid("s_axi_wvalid"), s_axi_wready("s_axi_wready"), s_axi_bid("s_axi_bid"), s_axi_bresp("s_axi_bresp"), s_axi_bvalid("s_axi_bvalid"), s_axi_bready("s_axi_bready"), s_axi_arid("s_axi_arid"), s_axi_araddr("s_axi_araddr"), s_axi_arlen("s_axi_arlen"), s_axi_arsize("s_axi_arsize"), s_axi_arburst("s_axi_arburst"), s_axi_arlock("s_axi_arlock"), s_axi_arcache("s_axi_arcache"), s_axi_arprot("s_axi_arprot"), s_axi_arvalid("s_axi_arvalid"), s_axi_arready("s_axi_arready"), s_axi_rid("s_axi_rid"), s_axi_rdata("s_axi_rdata"), s_axi_rresp("s_axi_rresp"), s_axi_rlast("s_axi_rlast"), s_axi_rvalid("s_axi_rvalid"), s_axi_rready("s_axi_rready"), bram_rst_a("bram_rst_a"), bram_clk_a("bram_clk_a"), bram_en_a("bram_en_a"), bram_we_a("bram_we_a"), bram_addr_a("bram_addr_a"), bram_wrdata_a("bram_wrdata_a"), bram_rddata_a("bram_rddata_a"), bram_rst_b("bram_rst_b"), bram_clk_b("bram_clk_b"), bram_en_b("bram_en_b"), bram_we_b("bram_we_b"), bram_addr_b("bram_addr_b"), bram_wrdata_b("bram_wrdata_b"), bram_rddata_b("bram_rddata_b")
 {
   // initialize pins
   mp_impl->s_axi_aclk(s_axi_aclk);
@@ -595,7 +611,7 @@ PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_co
     xsc::common_cpp::properties S_AXI_transactor_param_props;
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
-    S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
+    S_AXI_transactor_param_props.addLong("ID_WIDTH", "12");
     S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
@@ -626,10 +642,11 @@ PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_co
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "PynqZ2_platform_processing_system7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,13,12,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
   mp_S_AXI_transactor->ARADDR(s_axi_araddr);
   mp_S_AXI_transactor->ARBURST(s_axi_arburst);
   mp_S_AXI_transactor->ARCACHE(s_axi_arcache);
+  mp_S_AXI_transactor->ARID(s_axi_arid);
   mp_S_AXI_transactor->ARLEN(s_axi_arlen);
   mp_S_AXI_transactor->ARLOCK(s_axi_arlock);
   mp_S_AXI_transactor->ARPROT(s_axi_arprot);
@@ -639,16 +656,19 @@ PynqZ2_platform_axi_bram_ctrl_0_0::PynqZ2_platform_axi_bram_ctrl_0_0(const sc_co
   mp_S_AXI_transactor->AWADDR(s_axi_awaddr);
   mp_S_AXI_transactor->AWBURST(s_axi_awburst);
   mp_S_AXI_transactor->AWCACHE(s_axi_awcache);
+  mp_S_AXI_transactor->AWID(s_axi_awid);
   mp_S_AXI_transactor->AWLEN(s_axi_awlen);
   mp_S_AXI_transactor->AWLOCK(s_axi_awlock);
   mp_S_AXI_transactor->AWPROT(s_axi_awprot);
   mp_S_AXI_transactor->AWREADY(s_axi_awready);
   mp_S_AXI_transactor->AWSIZE(s_axi_awsize);
   mp_S_AXI_transactor->AWVALID(s_axi_awvalid);
+  mp_S_AXI_transactor->BID(s_axi_bid);
   mp_S_AXI_transactor->BREADY(s_axi_bready);
   mp_S_AXI_transactor->BRESP(s_axi_bresp);
   mp_S_AXI_transactor->BVALID(s_axi_bvalid);
   mp_S_AXI_transactor->RDATA(s_axi_rdata);
+  mp_S_AXI_transactor->RID(s_axi_rid);
   mp_S_AXI_transactor->RLAST(s_axi_rlast);
   mp_S_AXI_transactor->RREADY(s_axi_rready);
   mp_S_AXI_transactor->RRESP(s_axi_rresp);
