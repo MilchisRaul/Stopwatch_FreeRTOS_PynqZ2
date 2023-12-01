@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Dec  1 13:00:37 2023
+# Process ID: 11368
+# Current directory: C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.runs/PynqZ2_platform_axi_smc_0_synth_1
+# Command line: vivado.exe -log PynqZ2_platform_axi_smc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PynqZ2_platform_axi_smc_0.tcl
+# Log file: C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.runs/PynqZ2_platform_axi_smc_0_synth_1/PynqZ2_platform_axi_smc_0.vds
+# Journal file: C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqZ2 platform/PynqZ2 platform.runs/PynqZ2_platform_axi_smc_0_synth_1\vivado.jou
+# Running On: DESKTOP-CA1TKI1, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 17042 MB
+#-----------------------------------------------------------
+source PynqZ2_platform_axi_smc_0.tcl -notrace
