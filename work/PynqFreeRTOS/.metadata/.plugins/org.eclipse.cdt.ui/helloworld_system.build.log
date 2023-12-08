@@ -1,0 +1,10 @@
+00:46:19 **** Incremental Build of configuration Debug for project helloworld_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 64772 C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqFreeRTOS/PynqZ2/export/PynqZ2/PynqZ2.xpfm freertos10_xilinx_ps7_cortexa9_0 C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqFreeRTOS/helloworld_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqFreeRTOS/PynqZ2/export/PynqZ2/PynqZ2.xpfm --sys_config PynqZ2 --bif C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqFreeRTOS/helloworld_system/Debug/system.bif --bitstream C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqFreeRTOS/helloworld/_ide/bitstream/PynqZ2_AXI_Interc.bit --elf C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqFreeRTOS/helloworld/Debug/helloworld.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqFreeRTOS/helloworld/_ide/bitstream/PynqZ2_AXI_Interc.bit
+Running D:/VivadoSuiteStandard/Vitis/2023.2/bin/bootgen  -image C:/Users/raulm/Desktop/Facultate/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/PynqFreeRTOS/helloworld_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+00:46:26 Build Finished (took 7s.460ms)
+
