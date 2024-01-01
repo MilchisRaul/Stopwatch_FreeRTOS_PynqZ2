@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="vitis_project" location="D:/Digitronix/Vitis_Beginner_Tutorial/vitis_project" platform="D:/Digitronix/Vitis_Beginner_Tutorial/vitis_project_platform/export/vitis_project_platform/vitis_project_platform.xpfm" platformUID="xilinx:pynq-z1::0.0(custom)" systemProject="vitis_project_system" sysConfig="vitis_project_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="d78dc22e90db7759e2a67eea56a2d9ef">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1964231308">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1529023417" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

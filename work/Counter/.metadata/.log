@@ -1,0 +1,3110 @@
+!SESSION 2023-12-29 17:18:14.756 -----------------------------------------------
+eclipse.buildId=2023.2
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/.metadata/.bak_0.log
+Created Time: 2023-12-29 18:35:01.278
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.278
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.280
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.281
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.282
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.302
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.304
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.305
+!MESSAGE XSCT Command: [::hsi::utils::opensw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.306
+!MESSAGE XSCT command with result: [::hsi::utils::opensw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.307
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss -app freertos_hello_world -processor ps7_cortexa9_0 -os freertos10_xilinx -dir /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/src], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.359
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss -app freertos_hello_world -processor ps7_cortexa9_0 -os freertos10_xilinx -dir /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/src], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.388
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.407
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.408
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.410
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Fri Dec 29 18:28:41 2023",
+"vivado_version": "2023.2",
+"part": "xc7z020clg400-1",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:01.411
+!MESSAGE XSCT Command: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit} -quiet], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:06.065
+!MESSAGE XSCT command with result: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit} -quiet], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:06.180
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:06.182
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 18:35:06.216
+!MESSAGE Generating MD5 hash for file: /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:06.491
+!MESSAGE XSCT Command: [::hsi::utils::closehw /tmp/hwspec_rgb_led_wrapper1875545943598231561/rgb_led_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:06.517
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /tmp/hwspec_rgb_led_wrapper1875545943598231561/rgb_led_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-29 18:35:06.570
+!MESSAGE Indexed 'rgb_led_app_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-29 18:35:06.684
+!MESSAGE Indexed 'rgb_led_app' (1 sources, 45 headers) in 0.112 sec: 1,193 declarations; 2,318 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:43.860
+!MESSAGE XSCT Command: [::hsi::utils::closehw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:43.888
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:43.889
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:45.904
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:45.905
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:45.908
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:45.909
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:45.911
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.14",
+}]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 18:35:45.911
+!MESSAGE Generating MD5 hash for file: /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:45.914
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:35:45.916
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:00.283
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:00.300
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_0": {"hier_name": "ps7_uart_0",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:00.301
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:00.303
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Fri Dec 29 18:28:41 2023",
+"vivado_version": "2023.2",
+"part": "xc7z020clg400-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:01.634
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-238
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:01.637
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-238
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.655
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.669
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "525",
+}]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.669
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.682
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "6",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "6",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "6",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "6",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616476,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616488,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616480,
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.683
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.699
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.700
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.702
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.703
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.704
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.705
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.706
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.707
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.709
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.709
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.711
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.711
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.713
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.713
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.718
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.718
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.737
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "6",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "6",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "6",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "6",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616476,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616488,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616480,
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.738
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.749
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.750
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.752
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.752
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.754
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.754
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.756
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.756
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.758
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.759
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.760
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.761
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.762
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.763
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.765
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa ps7_cortexa9_0], Result: [null, axi_gpio_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_0 ps7_usb_0 ps7_xadc_0]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.766
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa bit], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.768
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa bit], Result: [null, rgb_led_wrapper.bit]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.768
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.774
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.775
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.833
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.834
+!MESSAGE XSCT Command: [version -server], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.839
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.839
+!MESSAGE XSCT Command: [version], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.840
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:40
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.840
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.847
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.847
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.861
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.861
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.866
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.867
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.879
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.879
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.884
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.884
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.896
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.896
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.902
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.902
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.913
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.913
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.918
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.919
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.931
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.931
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.937
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.937
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.949
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.949
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.962
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.962
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.963
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.964
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.972
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:02.973
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:03.015
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:03.015
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:06.019
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:06.033
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:06.038
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:06.038
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:06.053
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:06.054
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:06.077
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:06.078
+!MESSAGE XSCT Command: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.397
+!MESSAGE XSCT command with result: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.412
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.426
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.426
+!MESSAGE XSCT Command: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.476
+!MESSAGE XSCT command with result: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, rgb_led_wrapper_4]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.477
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.479
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.479
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.492
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.492
+!MESSAGE XSCT Command: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.493
+!MESSAGE XSCT command with result: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.494
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.957
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.957
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.971
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.971
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.984
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:08.985
+!MESSAGE XSCT Command: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:09.243
+!MESSAGE XSCT command with result: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:09.243
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:09.266
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:09.290
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:09.305
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:09.305
+!MESSAGE XSCT Command: [con], Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 18:36:09.326
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-15: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 18:36:09.327
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:19:45.041
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:19:45.045
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Result: [null, ]. Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:19:45.045
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:19:45.047
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.14",
+}]. Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:19:45.048
+!MESSAGE Generating MD5 hash for file: /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:19:45.048
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:19:45.049
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, ]. Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2023-12-29 20:19:45.728
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY org.eclipse.ui 2 2 2023-12-29 20:22:55.518
+!MESSAGE Invalid preference category path: com.xilinx.sdk.ui.preferences.page (bundle: com.xilinx.sdk.ui.customize, page: com.xilinx.sdk.ui.customize.sdkCustomizationPreferences)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:43:46.430
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:43:46.434
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Result: [null, ]. Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:43:46.435
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:43:46.438
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.14",
+}]. Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:43:46.438
+!MESSAGE Generating MD5 hash for file: /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:43:46.439
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:43:46.441
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, ]. Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:44:58.013
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:44:58.015
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Result: [null, ]. Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:44:58.016
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:44:58.018
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.14",
+}]. Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:44:58.018
+!MESSAGE Generating MD5 hash for file: /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:44:58.019
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:44:58.021
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, ]. Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:13.945
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-463
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:13.949
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-463
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.952
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.957
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.958
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.971
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.971
+!MESSAGE XSCT Command: [version -server], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.974
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.974
+!MESSAGE XSCT Command: [version], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.975
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:40
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.976
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.984
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.984
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.997
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:14.997
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.002
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.002
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.015
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.015
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.020
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.020
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.036
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.037
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.042
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.042
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.054
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.054
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.059
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.059
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.072
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.072
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.077
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.077
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.089
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.090
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.102
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.102
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.104
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.104
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.145
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.145
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.201
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:15.201
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:18.203
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:18.219
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:18.228
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:18.229
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:18.240
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:18.242
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:18.272
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:18.273
+!MESSAGE XSCT Command: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.591
+!MESSAGE XSCT command with result: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.606
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.618
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.618
+!MESSAGE XSCT Command: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.636
+!MESSAGE XSCT command with result: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, rgb_led_wrapper_4]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.636
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.638
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.639
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.654
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.654
+!MESSAGE XSCT Command: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.657
+!MESSAGE XSCT command with result: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:20.658
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.106
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.107
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.118
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.118
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.133
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.133
+!MESSAGE XSCT Command: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.387
+!MESSAGE XSCT command with result: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.388
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.419
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.435
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.451
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.451
+!MESSAGE XSCT Command: [con], Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:21.479
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-42: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:45:21.480
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:53.485
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:53.488
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:53.488
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:53.491
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.14",
+}]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:45:53.491
+!MESSAGE Generating MD5 hash for file: /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:53.492
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:45:53.493
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:03.300
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-524
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:03.304
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-524
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.306
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.311
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.312
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.326
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.327
+!MESSAGE XSCT Command: [version -server], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.329
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.329
+!MESSAGE XSCT Command: [version], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.330
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:40
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.331
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.336
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.337
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.349
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.349
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.354
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.355
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.367
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.367
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.372
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.373
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.386
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.387
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.393
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.393
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.406
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.406
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.411
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.412
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.424
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.424
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.429
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.429
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.441
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.442
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.454
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.454
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.455
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.456
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.473
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.474
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.525
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:04.525
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:07.530
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:07.545
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:07.555
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:07.555
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:07.568
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:07.568
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:07.591
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:07.592
+!MESSAGE XSCT Command: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.912
+!MESSAGE XSCT command with result: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.925
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.938
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.939
+!MESSAGE XSCT Command: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.952
+!MESSAGE XSCT command with result: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, rgb_led_wrapper_4]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.953
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.955
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.955
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.968
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.969
+!MESSAGE XSCT Command: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.970
+!MESSAGE XSCT command with result: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:09.971
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.401
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.402
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.415
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.416
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.430
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.431
+!MESSAGE XSCT Command: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.688
+!MESSAGE XSCT command with result: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.688
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.715
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.728
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.737
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.738
+!MESSAGE XSCT Command: [con], Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:46:10.768
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-40: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:46:10.768
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:21.931
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:21.936
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:21.937
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:21.939
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.14",
+}]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:50:21.939
+!MESSAGE Generating MD5 hash for file: /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:21.940
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:21.941
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:34.138
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-613
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:34.142
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-613
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.145
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.153
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.153
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.182
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.182
+!MESSAGE XSCT Command: [version -server], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.185
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.185
+!MESSAGE XSCT Command: [version], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.186
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:40
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.187
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.191
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.192
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.209
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.210
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.214
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.214
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.226
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.227
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.232
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.232
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.244
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.245
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.255
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.255
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.271
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.271
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.276
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.277
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.289
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.289
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.294
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.294
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.306
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.307
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.319
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.320
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.321
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.322
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.345
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.345
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.399
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:35.400
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:38.403
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:38.418
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:38.426
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:38.426
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:38.438
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:38.439
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:38.486
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:38.487
+!MESSAGE XSCT Command: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.804
+!MESSAGE XSCT command with result: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.821
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.835
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.836
+!MESSAGE XSCT Command: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.850
+!MESSAGE XSCT command with result: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, rgb_led_wrapper_4]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.851
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.852
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.853
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.864
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.865
+!MESSAGE XSCT Command: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.866
+!MESSAGE XSCT command with result: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:40.866
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.252
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.252
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.266
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.267
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.281
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.281
+!MESSAGE XSCT Command: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.542
+!MESSAGE XSCT command with result: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.543
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.570
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.583
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.592
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.592
+!MESSAGE XSCT Command: [con], Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:50:41.612
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-39: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:50:41.613
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '5'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:00.779
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:00.784
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Result: [null, ]. Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:00.785
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:00.788
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.14",
+}]. Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:56:00.788
+!MESSAGE Generating MD5 hash for file: /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:00.789
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:00.791
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, ]. Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:46.207
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Thread: Worker-45: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:46.211
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ], Result: [null, ]. Thread: Worker-45: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:46.211
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-45: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:46.214
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.14",
+}]. Thread: Worker-45: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:56:46.214
+!MESSAGE Generating MD5 hash for file: /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:46.216
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Thread: Worker-45: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:46.217
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/system.mss], Result: [null, ]. Thread: Worker-45: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:56.443
+!MESSAGE XSCT Command: [disconnect tcfchan#6], Thread: Thread-761
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:56.447
+!MESSAGE XSCT command with result: [disconnect tcfchan#6], Result: [null, ]. Thread: Thread-761
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.449
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.456
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#7]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.457
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.473
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.473
+!MESSAGE XSCT Command: [version -server], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.475
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.476
+!MESSAGE XSCT Command: [version], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.476
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:40
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.477
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.481
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.481
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.492
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.493
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.498
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.498
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.511
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.512
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.518
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.518
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.529
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.530
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.535
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.536
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.556
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.557
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.562
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.562
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.573
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.574
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.579
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.579
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.590
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.591
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.602
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.602
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.604
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.604
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.619
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.619
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.668
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:56:57.668
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:00.672
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:00.694
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:00.702
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:00.703
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:00.714
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:00.714
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:00.736
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:00.736
+!MESSAGE XSCT Command: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.051
+!MESSAGE XSCT command with result: [fpga -file /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/bitstream/rgb_led_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.063
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.077
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.077
+!MESSAGE XSCT Command: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.093
+!MESSAGE XSCT command with result: [loadhw -hw /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/hw/rgb_led_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, rgb_led_wrapper_4]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.094
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.096
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.096
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.109
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.110
+!MESSAGE XSCT Command: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.111
+!MESSAGE XSCT command with result: [source /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.111
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.457
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.458
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.467
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.468
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.482
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.483
+!MESSAGE XSCT Command: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.743
+!MESSAGE XSCT command with result: [dow /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led_app/Debug/rgb_led_app.elf], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.743
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.767
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.782
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.795
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.796
+!MESSAGE XSCT Command: [con], Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 20:57:03.818
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-46: Launching Debugger_rgb_led_app-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-12-29 20:57:03.819
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '6'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 21:26:20.449
+!MESSAGE XSCT Command: [disconnect tcfchan#7], Thread: Thread-820
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-29 21:26:20.454
+!MESSAGE XSCT command with result: [disconnect tcfchan#7], Result: [null, ]. Thread: Thread-820
+!SESSION 2023-12-30 12:16:52.327 -----------------------------------------------
+eclipse.buildId=2023.2
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2023-12-30 12:16:53.102
+!MESSAGE Bundle reference:file:org.apache.log4j_1.2.15.v201012070815.jar not found.
+
+!ENTRY org.eclipse.osgi 4 0 2023-12-30 12:16:53.137
+!MESSAGE Bundle reference:file:org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar not found.
+
+!ENTRY org.eclipse.ui 4 4 2023-12-30 12:17:01.241
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:07.547
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:07.547
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:07.551
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:07.552
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:07.552
+!MESSAGE XSCT Command: [setws /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter], Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:07.554
+!MESSAGE XSCT command with result: [setws /home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter], Result: [null, ]. Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:09.427
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:09.889
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:09.891
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-12-30 12:17:09.893
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /home/raul/Xilinx/Vitis/2023.2/data]. Thread: Worker-0: Initializing s/w repositories

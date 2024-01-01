@@ -1,0 +1,28 @@
+{
+  "version": "2020.1",
+  "applications": [],
+  "platforms": [
+    {
+      "name": "vitis_project_platform"
+    }
+  ],
+  "systems": [
+    {
+      "name": "vitis_project_system",
+      "platform": "D:/Digitronix/Vitis_Beginner_Tutorial/vitis_project_platform/export/vitis_project_platform/vitis_project_platform.xpfm",
+      "sysConfig": "vitis_project_platform",
+      "applications": [
+        {
+          "name": "vitis_project",
+          "platform": "D:/Digitronix/Vitis_Beginner_Tutorial/vitis_project_platform/export/vitis_project_platform/vitis_project_platform.xpfm",
+          "platformPath": "D:\\Digitronix\\Vitis_Beginner_Tutorial\\vitis_project_platform\\export\\vitis_project_platform",
+          "sysConfig": "vitis_project_platform",
+          "domain": "standalone_domain",
+          "system": "vitis_project_system"
+        }
+      ],
+      "platformPath": "D:\\Digitronix\\Vitis_Beginner_Tutorial\\vitis_project_platform\\export\\vitis_project_platform"
+    }
+  ],
+  "others": []
+}

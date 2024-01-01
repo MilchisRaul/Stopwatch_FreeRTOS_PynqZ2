@@ -1,0 +1,62 @@
+20:56:46 **** Incremental Build of configuration Debug for project rgb_led_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/freertos_hello_world.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'runProject':
+../src/freertos_hello_world.c:102:33: warning: statement with no effect [-Wunused-value]
+  102 |                         clk_div == true;
+      |                                 ^
+../src/freertos_hello_world.c: In function 'main':
+../src/freertos_hello_world.c:160:26: warning: unused variable 'x10seconds' [-Wunused-variable]
+  160 |         const TickType_t x10seconds = pdMS_TO_TICKS( DELAY_10_SECONDS );
+      |                          ^~~~~~~~~~
+../src/freertos_hello_world.c: At top level:
+../src/freertos_hello_world.c:50:13: warning: 'prvTxTask' declared 'static' but never defined [-Wunused-function]
+   50 | static void prvTxTask( void *pvParameters );
+      |             ^~~~~~~~~
+../src/freertos_hello_world.c:51:13: warning: 'prvRxTask' declared 'static' but never defined [-Wunused-function]
+   51 | static void prvRxTask( void *pvParameters );
+      |             ^~~~~~~~~
+../src/freertos_hello_world.c:52:13: warning: 'vTimerCallback' declared 'static' but never defined [-Wunused-function]
+   52 | static void vTimerCallback( TimerHandle_t pxTimer );
+      |             ^~~~~~~~~~~~~~
+../src/freertos_hello_world.c:60:22: warning: 'xTimer' defined but not used [-Wunused-variable]
+   60 | static TimerHandle_t xTimer = NULL;
+      |                      ^~~~~~
+../src/freertos_hello_world.c:59:22: warning: 'xQueue' defined but not used [-Wunused-variable]
+   59 | static QueueHandle_t xQueue = NULL;
+      |                      ^~~~~~
+../src/freertos_hello_world.c:58:21: warning: 'xRxTask' defined but not used [-Wunused-variable]
+   58 | static TaskHandle_t xRxTask;
+      |                     ^~~~~~~
+../src/freertos_hello_world.c:57:21: warning: 'xTxTask' defined but not used [-Wunused-variable]
+   57 | static TaskHandle_t xTxTask;
+      |                     ^~~~~~~
+../src/freertos_hello_world.c: In function 'driverInit':
+../src/freertos_hello_world.c:79:11: warning: 'status' is used uninitialized [-Wuninitialized]
+   79 |         if(status != XST_SUCCESS)
+      |           ^
+../src/freertos_hello_world.c:77:13: note: 'status' was declared here
+   77 |         int status;
+      |             ^~~~~~
+Finished building: ../src/freertos_hello_world.c
+ 
+Building target: rgb_led_app.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/sw/rgb_led/freertos10_xilinx_domain/bsplib/lib -o "rgb_led_app.elf" ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+Finished building target: rgb_led_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size rgb_led_app.elf  |tee "rgb_led_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85116	   3372	  88760	 177248	  2b460	rgb_led_app.elf
+Finished building: rgb_led_app.elf.size
+ 
+
+20:56:46 Build Finished (took 666ms)
+

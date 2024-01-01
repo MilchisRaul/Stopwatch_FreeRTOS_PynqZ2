@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Aug  4 22:33:25 2020
+# Process ID: 3876
+# Current directory: C:/Users/ACER/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6592
+# Log file: C:/Users/ACER/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/ACER/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Digitronix/Vitis_Beginner_Tutorial/vitis_beginner/vitis_beginner.xpr
+update_compile_order -fileset sources_1
+archive_project D:/Digitronix/Vitis_Beginner_Tutorial/vitis_beginner_pynq_z1_v2020.1_Aug_4.xpr.zip -temp_dir C:/Users/ACER/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3876-Nielfotech -force -include_local_ip_cache -include_config_settings

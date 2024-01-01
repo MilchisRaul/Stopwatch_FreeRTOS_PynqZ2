@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="rgb_led_app_system" platform="/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led/rgb_led.xpfm" platformUID="xilinx:pynq-z2::0.0(custom)" sysConfig="rgb_led" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.1989042604">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="rgb_led_app" domainName="freertos10_xilinx_domain" domainPrettyName="freertos10_xilinx_domain" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.120565081">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="rgb_led_app" domainName="freertos10_xilinx_domain" domainPrettyName="freertos10_xilinx_domain" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

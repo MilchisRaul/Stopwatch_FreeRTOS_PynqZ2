@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.bss=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.data=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.data1=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.fixup=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.rodata=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.rodata1=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.sbss=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.sbss2=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.sdata=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.sdata2=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:.text=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:heap=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:heap-size=1024
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:stack=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Counter_freeRTOS\:stack-size=1024
+eclipse.preferences.version=1

@@ -1,0 +1,77 @@
+timestamp=[2023-12-26 15:07:22], mode=WORKBENCH_START, duration=0:00:07.907, duration_ms=7907, data={}
+timestamp=[2023-12-26 15:07:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.030, duration_ms=30, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-12-26 15:07:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.286, duration_ms=286, data={}
+timestamp=[2023-12-26 15:10:46], mode=APP_CREATION, duration=0:00:15.998, duration_ms=15998, data={name=Counter_freeRTOS, project_type=sdk, os=freertos10_xilinx, processor=ps7_cortexa9, runtime=cpp, platform=PynqZ2_linux_platform, application_type=application}
+timestamp=[2023-12-26 15:13:37], mode=PLATFORM_GENERATION, duration=0:00:04.907, duration_ms=4907, data={name=PynqZ2_linux_platform}
+timestamp=[2023-12-26 15:13:37], mode=BUILD, duration=0:00:00.022, duration_ms=22, data={name=Counter_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-12-26 15:13:38], mode=BUILD, duration=0:00:00.012, duration_ms=12, data={name=Counter_freeRTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-26 15:14:35], mode=PLATFORM_GENERATION, duration=0:00:11.002, duration_ms=11002, data={name=PynqZ2_linux_platform}
+timestamp=[2023-12-26 15:14:36], mode=BUILD, duration=0:00:00.639, duration_ms=639, data={name=Counter_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-12-26 15:14:43], mode=BUILD, duration=0:00:06.108, duration_ms=6108, data={name=Counter_freeRTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-26 15:16:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.269, duration_ms=269, data={}
+timestamp=[2023-12-26 15:33:18], mode=WORKBENCH_START, duration=0:16:38.072, duration_ms=998072, data={}
+timestamp=[2023-12-26 15:33:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.032, duration_ms=32, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,PynqZ2_linux_platform,RemoteSystemsTempFiles}
+timestamp=[2023-12-26 15:35:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.304, duration_ms=304, data={}
+timestamp=[2023-12-26 15:35:55], mode=WORKBENCH_START, duration=0:00:06.165, duration_ms=6165, data={}
+timestamp=[2023-12-26 15:35:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.139, duration_ms=139, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,PynqZ2_linux_platform,RemoteSystemsTempFiles}
+timestamp=[2023-12-27 15:54:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.272, duration_ms=272, data={}
+timestamp=[2023-12-27 15:54:57], mode=WORKBENCH_START, duration=0:00:08.967, duration_ms=8967, data={}
+timestamp=[2023-12-27 15:54:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.029, duration_ms=29, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,PynqZ2_linux_platform,RemoteSystemsTempFiles}
+timestamp=[2023-12-27 16:28:43], mode=PLATFORM_GENERATION, duration=0:00:08.135, duration_ms=8135, data={name=PynqZ2_linux_platform}
+timestamp=[2023-12-27 16:28:45], mode=BUILD, duration=0:00:00.610, duration_ms=610, data={name=Counter_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-12-27 16:53:24], mode=WORKBENCH_START, duration=0:00:07.198, duration_ms=7198, data={}
+timestamp=[2023-12-27 16:53:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.033, duration_ms=33, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,PynqZ2_linux_platform,RemoteSystemsTempFiles}
+timestamp=[2023-12-27 16:53:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.243, duration_ms=243, data={}
+timestamp=[2023-12-27 17:15:02], mode=WORKBENCH_START, duration=0:00:06.327, duration_ms=6327, data={}
+timestamp=[2023-12-27 17:15:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.098, duration_ms=98, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,PynqZ2_linux_platform,RemoteSystemsTempFiles}
+timestamp=[2023-12-27 17:15:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.282, duration_ms=282, data={}
+timestamp=[2023-12-27 17:26:41], mode=PLATFORM_GENERATION, duration=0:00:07.830, duration_ms=7830, data={name=PynqZ2_linux_platform}
+timestamp=[2023-12-27 17:26:44], mode=BUILD, duration=0:00:00.661, duration_ms=661, data={name=Counter_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-12-27 17:30:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.281, duration_ms=281, data={}
+timestamp=[2023-12-27 17:30:04], mode=WORKBENCH_START, duration=0:00:07.751, duration_ms=7751, data={}
+timestamp=[2023-12-27 17:30:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.036, duration_ms=36, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,PynqZ2_linux_platform,RemoteSystemsTempFiles}
+timestamp=[2023-12-27 17:42:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.299, duration_ms=299, data={}
+timestamp=[2023-12-27 17:42:11], mode=WORKBENCH_START, duration=0:00:06.882, duration_ms=6882, data={}
+timestamp=[2023-12-27 17:42:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.044, duration_ms=44, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,PynqZ2_linux_platform,RemoteSystemsTempFiles}
+timestamp=[2023-12-27 17:44:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.250, duration_ms=250, data={}
+timestamp=[2023-12-27 17:44:48], mode=WORKBENCH_START, duration=0:00:07.025, duration_ms=7025, data={}
+timestamp=[2023-12-27 17:44:48], mode=WORKBENCH_UI_INIT, duration=0:00:00.043, duration_ms=43, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,PynqZ2_linux_platform,RemoteSystemsTempFiles}
+timestamp=[2023-12-27 17:47:11], mode=PLATFORM_GENERATION, duration=0:00:07.406, duration_ms=7406, data={name=PynqZ2_linux_platform}
+timestamp=[2023-12-27 17:47:12], mode=BUILD, duration=0:00:00.295, duration_ms=295, data={name=Counter_freeRTOS, configuration=Debug, clean_build=true}
+timestamp=[2023-12-27 17:47:26], mode=PLATFORM_GENERATION, duration=0:00:10.798, duration_ms=10798, data={name=PynqZ2_linux_platform}
+timestamp=[2023-12-27 17:47:29], mode=BUILD, duration=0:00:00.649, duration_ms=649, data={name=Counter_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-12-27 17:51:29], mode=APP_CREATION, duration=0:00:06.285, duration_ms=6285, data={name=led_blink, project_type=sdk, os=freertos10_xilinx, processor=cortex-a9, runtime=C/C++, platform=PynqZ2_linux_platform, application_type=application}
+timestamp=[2023-12-27 18:09:09], mode=APP_CREATION, duration=0:00:15.188, duration_ms=15188, data={name=No_freertos, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=PynqZ2_nofreertos, application_type=application}
+timestamp=[2023-12-27 18:09:23], mode=PLATFORM_GENERATION, duration=0:00:11.181, duration_ms=11181, data={name=PynqZ2_nofreertos}
+timestamp=[2023-12-27 18:09:26], mode=BUILD, duration=0:00:00.758, duration_ms=758, data={name=No_freertos, configuration=Debug, clean_build=false}
+timestamp=[2023-12-27 18:54:07], mode=APP_CREATION, duration=0:00:06.351, duration_ms=6351, data={name=LED_BLINK, project_type=sdk, os=freertos10_xilinx, processor=cortex-a9, runtime=C/C++, platform=PynqZ2_linux_platform, application_type=application}
+timestamp=[2023-12-27 19:00:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.223, duration_ms=223, data={}
+timestamp=[2023-12-27 19:00:28], mode=WORKBENCH_START, duration=0:00:07.728, duration_ms=7728, data={}
+timestamp=[2023-12-27 19:00:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.178, duration_ms=178, data={editors_count=5, platform_editors_count=0, projects_count=10, platform_projects_count=2, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,LED_BLINK,LED_BLINK_system,No_freertos,No_freertos_system,PynqZ2_linux_platform,PynqZ2_nofreertos,RemoteSystemsTempFiles,led_blink_system}
+timestamp=[2023-12-27 19:00:50], mode=BUILD, duration=0:00:00.693, duration_ms=693, data={name=LED_BLINK, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 16:26:38], mode=WORKBENCH_START, duration=0:00:09.576, duration_ms=9576, data={}
+timestamp=[2023-12-29 16:26:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.051, duration_ms=51, data={editors_count=0, platform_editors_count=0, projects_count=10, platform_projects_count=2, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,LED_BLINK,LED_BLINK_system,No_freertos,No_freertos_system,PynqZ2_linux_platform,PynqZ2_nofreertos,RemoteSystemsTempFiles,led_blink_system}
+timestamp=[2023-12-29 16:26:39], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.368, duration_ms=368, data={}
+timestamp=[2023-12-29 17:01:42], mode=BUILD, duration=0:00:00.729, duration_ms=729, data={name=LED_BLINK, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 17:03:20], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=LED_BLINK, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 17:05:35], mode=BUILD, duration=0:00:00.627, duration_ms=627, data={name=LED_BLINK, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 17:08:57], mode=BUILD, duration=0:00:00.622, duration_ms=622, data={name=LED_BLINK, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 17:09:16], mode=BUILD, duration=0:00:00.922, duration_ms=922, data={name=LED_BLINK, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 17:18:28], mode=WORKBENCH_START, duration=0:00:08.507, duration_ms=8507, data={}
+timestamp=[2023-12-29 17:18:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.461, duration_ms=461, data={editors_count=2, platform_editors_count=1, projects_count=10, platform_projects_count=2, active_platform_editor=false, projects=Counter_freeRTOS,Counter_freeRTOS_system,LED_BLINK,LED_BLINK_system,No_freertos,No_freertos_system,PynqZ2_linux_platform,PynqZ2_nofreertos,RemoteSystemsTempFiles,led_blink_system}
+timestamp=[2023-12-29 17:18:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.294, duration_ms=294, data={}
+timestamp=[2023-12-29 17:18:48], mode=BUILD, duration=0:00:00.506, duration_ms=506, data={name=LED_BLINK, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 18:34:15], mode=PLATFORM_CREATION, duration=0:00:08.905, duration_ms=8905, data={platform_source=dsa, os=freertos10_xilinx, processor=ps7_cortexa9, platform=null}
+timestamp=[2023-12-29 18:35:06], mode=APP_CREATION, duration=0:00:06.223, duration_ms=6223, data={name=rgb_led_app, project_type=sdk, os=freertos10_xilinx, processor=cortex-a9, runtime=C/C++, platform=rgb_led, application_type=application}
+timestamp=[2023-12-29 18:35:43], mode=PLATFORM_GENERATION, duration=0:00:11.300, duration_ms=11300, data={name=rgb_led}
+timestamp=[2023-12-29 18:35:46], mode=BUILD, duration=0:00:00.679, duration_ms=679, data={name=rgb_led_app, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 20:19:45], mode=BUILD, duration=0:00:00.673, duration_ms=673, data={name=rgb_led_app, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 20:43:47], mode=BUILD, duration=0:00:00.724, duration_ms=724, data={name=rgb_led_app, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 20:44:58], mode=BUILD, duration=0:00:00.719, duration_ms=719, data={name=rgb_led_app, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 20:45:54], mode=BUILD, duration=0:00:00.670, duration_ms=670, data={name=rgb_led_app, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 20:50:22], mode=BUILD, duration=0:00:00.727, duration_ms=727, data={name=rgb_led_app, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 20:56:01], mode=BUILD, duration=0:00:00.719, duration_ms=719, data={name=rgb_led_app, configuration=Debug, clean_build=false}
+timestamp=[2023-12-29 20:56:46], mode=BUILD, duration=0:00:00.673, duration_ms=673, data={name=rgb_led_app, configuration=Debug, clean_build=false}
+timestamp=[2023-12-30 12:17:07], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.268, duration_ms=268, data={}
+timestamp=[2023-12-30 12:17:09], mode=WORKBENCH_START, duration=0:00:11.213, duration_ms=11213, data={}
+timestamp=[2023-12-30 12:17:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.413, duration_ms=413, data={editors_count=7, platform_editors_count=3, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=LED_BLINK,LED_BLINK_system,PynqZ2_linux_platform,RemoteSystemsTempFiles,rgb_led,rgb_led_app,rgb_led_app_system}

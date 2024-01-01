@@ -1,0 +1,14 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Debugger_LED_BLINK-Default,org.eclipse.launchbar.core.descriptorType.default\:Debugger_rgb_led_app-Default
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Counter_freeRTOS-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Counter_freeRTOS-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Counter_freeRTOS-Default_1/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Counter_freeRTOS-Default_2/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Counter_freeRTOS-GDB/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_LED_BLINK-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_No_freertos-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_Counter_freeRTOS_system/activeLaunchMode=systemrun
+org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_Counter_freeRTOS_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

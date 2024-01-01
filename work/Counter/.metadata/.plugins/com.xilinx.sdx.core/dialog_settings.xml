@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/PynqZ2_linux_platform/export/PynqZ2_linux_platform;/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/Example_GPIO/Vitis_VIVADO_Beginner_PynqZ1_v2020_1_Sources_Project_Aug_4_Digitronix_Nepal/vitis_export_vitis_beginner_pynqZ1_v2020.1_Aug_4/vitis_project_platform;/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/rgb_led/export/rgb_led"/>
+</section>

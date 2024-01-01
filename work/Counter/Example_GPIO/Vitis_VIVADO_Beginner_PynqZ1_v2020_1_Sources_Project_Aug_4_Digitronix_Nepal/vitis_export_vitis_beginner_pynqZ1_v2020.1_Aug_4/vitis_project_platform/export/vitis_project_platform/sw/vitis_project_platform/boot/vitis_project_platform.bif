@@ -1,0 +1,7 @@
+/*vitis_project_platform*/
+the_ROM_image:
+{
+  [bootloader]<vitis_project_platform/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}
