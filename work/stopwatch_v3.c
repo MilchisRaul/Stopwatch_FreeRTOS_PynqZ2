@@ -33,7 +33,7 @@
 #include "xparameters.h"
 #include "xgpio.h"
 #include "xtime_l.h"
-
+/* AXI Timer driver include libraries*/
 #include "xtmrctr.h"
 #include "xtmrctr_l.h"
 
@@ -47,19 +47,23 @@
 #define G 0x02
 #define B 0x03
 
-#define MS_PER_SEC 1000
-#define SEC_PER_MIN 60
-#define MIN_PER_H 60
-#define SEC_PER_H 3600
+#define MS_PER_SEC 1000  /* No of miliseconds in one second */
+#define SEC_PER_MIN 60  /* No of seconds in one minute */
+#define MIN_PER_H 60 /* No of minutes in one hour */
+#define SEC_PER_H 3600 /* No of seconds in one hour */
 
 XGpio gpio;
-XTmrCtr TimerCounter; /* The instance of the Tmrctr Device */
+XTmrCtr TimerCounter; /* The instance of the Tmrctr Devicec(AXI Timer) */
 
-//queues declarations
+/* queues declarations */
 QueueHandle_t xButtonLedQueue; /* sends button state to led task */
 QueueHandle_t xButtonTimerControlQueue; /* sends button state to timer control task */
 QueueHandle_t xTimerValueDisplayQueue; /* sends button state to timer display task */
 
+
+/* Initialize gpio (buttons + LEDs) and the AXI Timer + check if they were initialized
+ * successfully.
+ */
 void driverInit()
 {
     int status;
@@ -79,6 +83,7 @@ void driverInit()
     }
 }
 
+/* Buttons and LEDs pin direction INPUT/OUTPUT configuration */
 void configGpio(){
     XGpio_SetDataDirection(&gpio, 1, 0);
     XGpio_SetDataDirection(&gpio, 2, 1);
@@ -88,9 +93,13 @@ void configGpio(){
     xil_printf("GPIO configured\r\n");
 }
 
+/* AXI Timer configuration for TMRCTR0 */
 void configTmrCtr()
 {
 	XTmrCtr *TmrCtrInstancePtr = &TimerCounter;
+/* Cascade mode activated to operate the timer on 64 bit, TMRCTR1 is the high 32 bit reg that updates
+ * when the TMRCTR0 overflows.
+ */
 	XTmrCtr_SetOptions(TmrCtrInstancePtr, 0, XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_CASCADE_MODE_OPTION);
 
 	XTmrCtr_SetResetValue(TmrCtrInstancePtr, 0, 0);
@@ -99,15 +108,20 @@ void configTmrCtr()
     xil_printf("AXI Timer Counter configured\r\n");
 }
 
+
+/* Task to read button values when they are pressed */
 void vReadButtons(void* pvParameters)
 {
     while(1)
 	{
 		uint32_t button = XGpio_DiscreteRead(&gpio, 2);
 
-		//xil_printf("%d", button);
-
-		/* Check that any button is pressed, but only one at a time */
+		/* Check that any button is pressed, but only one at a time
+		 * button == 1 -> STOP AXI TIMER (STOPWATCH)
+		 * button == 2 -> START AXI TIMER (STOPWATCH)
+		 * button == 4 -> AXI TIMER (STOPWATCH) is running
+		 * button == 8 -> Available for user configuration
+		 */
 		if(button == 1 || button == 2 || button == 4 || button == 8)
 		{
 			/* Send button press to vLedDisplay and vTimerControl */
@@ -129,18 +143,22 @@ void vLedDisplay(){
     	{
     		//xil_printf("(LedDisplay) Button: %d\n\r", button);
     		switch(button) {
+    		/* STOP */
 				case 1:
 					XGpio_DiscreteWrite(&gpio, 1, R);
 					//print("\tRED\n\r");
 					break;
+		    /* START */
 				case 2:
 					XGpio_DiscreteWrite(&gpio, 1, G);
 					//print("\tGREEN\n\r");
 					break;
+		    /* RUNNING */
 				case 4:
 					XGpio_DiscreteWrite(&gpio, 1, B);
 					//print("\tBLUE\n\r");
 					break;
+		    /* USER CONFIGURABLE */
 				case 8:
 					XGpio_DiscreteWrite(&gpio, 1, R|G|B);
 					//print("\tRGB\n\r");
@@ -153,8 +171,8 @@ void vLedDisplay(){
 }
 
 /*
- * Low level function that sets the compare register of low timer to last read value.
- * This is required because XTmrCtr_Start also resets the low timer
+ * Low level function that sets the compare register of low timer (TMRCTR0) to last read value.
+ * This is required because XTmrCtr_Start also resets the low timer (TMRCTR0)
  *
  */
 void XTmrCtr_SetCompareRegisterToLastValue(XTmrCtr *TmrCtrInstancePtr)
@@ -163,11 +181,17 @@ void XTmrCtr_SetCompareRegisterToLastValue(XTmrCtr *TmrCtrInstancePtr)
 	XTmrCtr_WriteReg(TmrCtrInstancePtr->BaseAddress, 0, XTC_TLR_OFFSET, lastTime);
 }
 
+/* Because of the high clock frequency of IN/OUT (100 MHz) it was needed to operate the
+ * counter on 64-bit mode. The timer has two counters TMRCTR0 and TMRCTR1. Counters are
+ * configured to work in cascade mode. When TMRCTR0 overflows, TMRCTR1 receives the
+ * carry-out bit and increments its value.
+ */
 uint64_t XTmrCtr_GetValue64(XTmrCtr *TmrCtrInstancePtr)
 {
+	/* Get the low timer (TMRCTR0) and the high timer (TMRCTR1) values and store in low and high vars */
 	uint32_t low = XTmrCtr_GetValue(&TimerCounter, 0);
 	uint32_t high = XTmrCtr_GetValue(&TimerCounter, 1);
-
+	/* Concatenate both high and low registers values in a single 64 bit register */
 	uint64_t time = ((uint64_t)high << 32) | (uint64_t)low;
 	return time;
 }
@@ -186,7 +210,7 @@ void vTimerControl()
 			//xil_printf("(TimerControl) Button: %d\n\r", button);
 			switch(button) {
 				case 1:
-					XTmrCtr_Stop(TmrCtrInstancePtr, 0); /* Stops the low AXI timer */
+					XTmrCtr_Stop(TmrCtrInstancePtr, 0); /* Stops the low AXI timer (TMRCTR0)*/
 					break;
 				case 2:
 					XTmrCtr_SetCompareRegisterToLastValue(TmrCtrInstancePtr); /* Save the last known value to the internal compare register */
@@ -211,7 +235,7 @@ void vTimerControl()
 		xQueueSendToBack(xTimerValueDisplayQueue, (void*)&time, (TickType_t)0);
 	}
 }
-
+/* Format the time into HH:MM:SS:MSMSMS */
 void FormatTime(uint64_t time, char* buffer)
 {
 	uint64_t totalSeconds = time / XPAR_AXI_TIMER_0_CLOCK_FREQ_HZ;
@@ -223,6 +247,7 @@ void FormatTime(uint64_t time, char* buffer)
 	sprintf(buffer, "%02llu:%02llu:%02llu:%03llu", hours, minutes, seconds, milis);
 }
 
+/* Display the timer with carriage return character to auto-update its value for a user friendly display */
 void vTimerDisplay()
 {
 	char buffer[50];
@@ -246,32 +271,33 @@ int main( void )
     configGpio();
     configTmrCtr();
 
+    /* Create the queues needed for avoiding the concurrency and manage the tasks properly*/
     xButtonLedQueue = xQueueCreate(1, sizeof(int32_t));
     xButtonTimerControlQueue = xQueueCreate(1, sizeof(int32_t));
     xTimerValueDisplayQueue = xQueueCreate(1, sizeof(uint64_t));
 
-    TaskHandle_t xHandle1 = NULL;
-    TaskHandle_t xHandle2 = NULL;
-    TaskHandle_t xHandle3 = NULL;
-    TaskHandle_t xHandle4 = NULL;
+    TaskHandle_t xButtonsHandler = NULL;
+    TaskHandle_t xLedDisplayHandler = NULL;
+    TaskHandle_t xTimerControlHandler = NULL;
+    TaskHandle_t xTimerDisplayHandler = NULL;
 
-    xTaskCreate(vReadButtons, "vReadButtons", configMINIMAL_STACK_SIZE, (void*)NULL, 0, &xHandle1);
+/* Creating the FreeRTOS tasks */
+    xTaskCreate(vReadButtons, "vReadButtons", configMINIMAL_STACK_SIZE, (void*)NULL, 0, &xButtonsHandler);
     xil_printf("Created button task\r\n");
 
-    xTaskCreate(vLedDisplay, "vLedDisplay", configMINIMAL_STACK_SIZE, (void*)NULL, 0, &xHandle2);
+    xTaskCreate(vLedDisplay, "vLedDisplay", configMINIMAL_STACK_SIZE, (void*)NULL, 0, &xLedDisplayHandler);
     xil_printf("Created led task\r\n");
 
-    xTaskCreate(vTimerControl, "vTimerControl", configMINIMAL_STACK_SIZE * 2, (void*)NULL, 0, &xHandle3);
+    xTaskCreate(vTimerControl, "vTimerControl", configMINIMAL_STACK_SIZE * 2, (void*)NULL, 0, &xTimerControlHandler);
     xil_printf("Created timer control task\r\n");
 
-    xTaskCreate(vTimerDisplay, "vTimerDisplay", configMINIMAL_STACK_SIZE * 2, (void*)NULL, 0, &xHandle4);
+    xTaskCreate(vTimerDisplay, "vTimerDisplay", configMINIMAL_STACK_SIZE * 2, (void*)NULL, 0, &xTimerDisplayHandler);
     xil_printf("Created timer display task\r\n");
-
+/* Scheduling the tasks using a queue system */
     xil_printf("Starting scheduler...\r\n\r\n");
     vTaskStartScheduler();
 
     xil_printf("Ending application...\r\n");
-
     vQueueDelete(xButtonLedQueue);
 
     return 0;
