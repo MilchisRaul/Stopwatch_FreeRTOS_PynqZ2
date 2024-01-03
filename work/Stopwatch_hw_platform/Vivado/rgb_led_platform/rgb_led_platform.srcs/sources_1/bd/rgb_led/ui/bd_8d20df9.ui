@@ -1,0 +1,52 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/rst_ps7_0_100M_peripheral_aresetn:false|/processing_system7_0_FCLK_CLK0:false|/processing_system7_0_FCLK_RESET0_N:false|/clk_wiz_0_clk_out1:false|",
+   "Addressing View_ScaleFactor":"0.957655",
+   "Addressing View_TopLeft":"-289,3",
+   "Default View_Layers":"/rst_ps7_0_100M_peripheral_aresetn:true|/processing_system7_0_FCLK_CLK0:true|/processing_system7_0_FCLK_RESET0_N:true|/clk_wiz_0_clk_out1:true|",
+   "Default View_ScaleFactor":"0.769464",
+   "Default View_TopLeft":"1,-528",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_ScaleFactor":"0.657718",
+   "Grouping and No Loops_TopLeft":"-541,3",
+   "Interfaces View_Layers":"/rst_ps7_0_100M_peripheral_aresetn:false|/processing_system7_0_FCLK_CLK0:false|/processing_system7_0_FCLK_RESET0_N:false|/clk_wiz_0_clk_out1:false|",
+   "Interfaces View_ScaleFactor":"1.0",
+   "Interfaces View_TopLeft":"-239,-52",
+   "Reduced Jogs_Layers":"/rst_ps7_0_100M_peripheral_aresetn:true|/processing_system7_0_FCLK_CLK0:true|/processing_system7_0_FCLK_RESET0_N:true|/clk_wiz_0_clk_out1:true|",
+   "Reduced Jogs_ScaleFactor":"0.62955",
+   "Reduced Jogs_TopLeft":"-499,3",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1520 -y -100 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1520 -y -80 -defaultsOSRD
+preplace port rgb -pg 1 -lvl 4 -x 1520 -y -140 -defaultsOSRD
+preplace port btns -pg 1 -lvl 4 -x 1520 -y -120 -defaultsOSRD
+preplace port leds -pg 1 -lvl 4 -x 1520 -y -490 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 370 -y -200 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 370 -y 160 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -x 1280 -y -230 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -x 840 -y 50 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 2 -x 840 -y -430 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 1 -x 370 -y -450 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 150 -310 640 -260 1130
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 570 -150n
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 3 160 -340 630J -340 1110
+preplace netloc axi_gpio_0_GPIO 1 1 3 660 -50 N -50 1460
+preplace netloc axi_gpio_0_GPIO2 1 1 3 650 -60 N -60 1470
+preplace netloc axi_gpio_1_GPIO 1 2 2 NJ -430 1440
+preplace netloc processing_system7_0_DDR 1 1 3 NJ -250 1030 -40 1480
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ -230 1120 -30 1490
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 570J -270 1120
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 4 170 -70 NJ -70 NJ -70 1430
+preplace netloc ps7_0_axi_periph_M01_AXI 1 1 3 660 -90 1040J -20 1450
+preplace netloc ps7_0_axi_periph_M02_AXI 1 0 4 170 -80 NJ -80 1020J -10 1440
+levelinfo -pg 1 -90 370 840 1280 1520
+pagesize -pg 1 -db -bbox -sgen -120 -560 2560 580
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_ps7_cnt":"1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="stopwatch_v3_system" platform="/home/raul/Desktop/Master/Anul1/Sem1/SDTR/RISCV-RTDS/work/Counter/stopwatch_platformv3/export/stopwatch_platformv3/stopwatch_platformv3.xpfm" platformUID="xilinx:pynq-z2::0.0(custom)" sysConfig="stopwatch_platformv3" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.342878771">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="stopwatch_v3" domainName="freertos10_xilinx_domain" domainPrettyName="freertos10_xilinx_domain" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="stopwatch_v3" domainName="freertos10_xilinx_domain" domainPrettyName="freertos10_xilinx_domain" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.290143794">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="stopwatch_v3" domainName="freertos10_xilinx_domain" domainPrettyName="freertos10_xilinx_domain" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>
